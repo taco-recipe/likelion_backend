@@ -1,0 +1,29 @@
+services:
+
+  backend1:  # 서비스 이름은 컨테이너간 통신하기 위한 이름
+    image: backend
+    container_name: backend1
+    environment:
+      PROJECT_NAME: 백앤드 서버1
+  backend2:  # 서비스 이름은 컨테이너간 통신하기 위한 이름
+    image: backend
+    container_name: backend2
+    environment:
+      PROJECT_NAME: 백앤드 서버2
+  backend3:  # 서비스 이름은 컨테이너간 통신하기 위한 이름
+    image: backend
+    container_name: backend3
+    environment:
+      PROJECT_NAME: 백앤드 서버3
+
+  nginx:
+    image: nginx:1.25
+    container_name: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - backend1
+      - backend2
+      - backend3
