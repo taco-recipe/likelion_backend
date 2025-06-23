@@ -5,7 +5,7 @@ FROM openjdk:17-jdk
 WORKDIR /app
 
 #jar파일 등 빌드 결과물을 컨테이너에 복사 (호스트 -> 컨테이너)
-COPY build/libs/backendProject-0.0.1-SNAPSHOT.jar /app/app.jar
+COPY build/libs/backendProject-0.0.1-SNAPSHOT.jar /app/backendProject-0.0.1-SNAPSHOT.jar
 
 #컨테이너 실행시 기본으로 실행할 명령
-CMD ["java", "-jar", "/app/app.jar"]
+CMD ["java", "-jar", "/app/backendProject-0.0.1-SNAPSHOT.jar"]

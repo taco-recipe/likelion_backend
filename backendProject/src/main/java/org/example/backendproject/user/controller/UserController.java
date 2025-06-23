@@ -1,5 +1,6 @@
 package org.example.backendproject.user.controller;
 
+
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,7 +14,8 @@ public class UserController {
     private String instansName;
 
     @GetMapping
-    public String test() {
+    public String test(){
         return instansName;
     }
+
 }

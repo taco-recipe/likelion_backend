@@ -1,9 +1,13 @@
-package org.example.backendproject.stompWebsocket.handler;
+package org.example.backendproject.stompwebsocket.handler;
+
 
 import java.security.Principal;
 
+
+
+
 public class StompPrincipal implements Principal {
-    // 닉데임으로 식별 가능하도록? 하는 principal
+
     private final String name;
 
     public StompPrincipal(String name) {
@@ -14,4 +18,5 @@ public class StompPrincipal implements Principal {
     public String getName() {
         return name;
     }
+
 }

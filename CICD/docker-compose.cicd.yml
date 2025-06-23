@@ -1,0 +1,37 @@
+services:
+  jenkins:
+    build: .
+    container_name: jenkins
+    ports:
+      - "7070:8080"
+      - "50000:50000"
+    user: root
+    volumes:
+      - ./volumes/jenkins:/var/jenkins_home
+      - ./kubeconfig:/root/.kube
+      - /var/run/docker.sock:/var/run/docker.sock
+      #  - C:\Users\dmstl\Intellij-Workspace\backend5:/var/jenkins_home/workspace/backend5  # 프로젝트 연결  (은시기 노트북)
+      - /Users/taco/likelion/backend5/backendProject:/var/jenkins_home/workspace/backendProject
+    restart: unless-stopped
+    networks:
+      - prod_server
+
+networks:
+  prod_server:
+    external: true
+
+
+
+#services:
+#  jenkins:
+#    build: .
+#    container_name: jenkins
+#    ports:
+#      - "7070:8080"
+#      - "50000:50000"
+#    user: root
+#    volumes:
+#      - ./volumes/jenkins:/var/jenkins_home
+#      - /var/run/docker.sock:/var/run/docker.sock
+#      - /Users/taco/likelion/backend5:/var/jenkins_home/workspace/backend5_Test_local  # 프로젝트 연결
+#    restart: unless-stopped

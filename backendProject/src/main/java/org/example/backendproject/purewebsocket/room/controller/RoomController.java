@@ -1,5 +1,6 @@
 package org.example.backendproject.purewebsocket.room.controller;
 
+
 import lombok.RequiredArgsConstructor;
 import org.example.backendproject.purewebsocket.room.entity.ChatRoom;
 import org.example.backendproject.purewebsocket.room.service.RoomService;
@@ -12,11 +13,10 @@ import java.util.List;
 @RequestMapping("/api/rooms")
 public class RoomController {
 
-
     private final RoomService roomService;
 
     @GetMapping
-    public List<ChatRoom> getAllRoom(String roodId){
+    public List<ChatRoom> getAllRoom(){
         return roomService.findAllRooms();
     }
 
@@ -24,4 +24,5 @@ public class RoomController {
     public ChatRoom createRoom(@PathVariable String roomId){
         return roomService.createRoom(roomId);
     }
+
 }

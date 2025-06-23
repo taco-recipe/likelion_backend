@@ -1,4 +1,5 @@
-package org.example.backendproject.stompWebsocket.dto;
+package org.example.backendproject.stompwebsocket.dto;
+
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -7,13 +8,18 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@NoArgsConstructor  // 이거도 뭐임
-@AllArgsConstructor // 이거 뭐임
+@NoArgsConstructor
+@AllArgsConstructor
 public class ChatMessage {
 
     private String message;
     private String from;
-    private String to;      // 귓속말 받을 사람
-    private String roomId;
 
+    private String to; //귓속말을 받을 사람
+    private String roomId; //방 id
+
+    public ChatMessage(String from, String message) {
+        this.from = from;
+        this.message = message;
+    }
 }

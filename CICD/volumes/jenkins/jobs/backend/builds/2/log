@@ -1,0 +1,276 @@
+Started by user [8mha:////4BxF+AYt4xwxo/OqaFyoj7UsAilbO2xwDKV5RvJxq05aAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4EShChUodNTqOE989fTEyDQvzkaUqptcN7rsR2Zd4cmSAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4L8eJi72Fa0XZd2m3INMGAytuT9VVmHlOnlmYUYjNpGWAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4CZIz2zZLi6jYKOtmuQgXR4Cq0avZxmUduu2/wZEieAwAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/backend
+[8mha:////4BKCiAVxBTmkDVR51Y6W8/f2Gg2C63TRgpEhCIAiNz3vAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4KbdM0D5TvLj1e/TJ0jhCWyY+3LcuU09OVaz8VFAQN2gAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] withEnv
+[8mha:////4HR/Naz9bNzRxMQz7lzAupuXCjbW7qyRof13gU8pLmX5AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4CDrwRFr94NhOuGVQGhh5CbmX8zdZNhfEeIaxfJjpCRSAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4L7XBzHSQ1qK7LnaJdxkxgO43e56lzlroMIlcAe2U70MAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Cleanup Containers)
+[8mha:////4DkMSTEYKxisOR0xYcXyw4fiWvX/Opc7cMI0JXIdLMxZAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/backend5/backendProject
+[8mha:////4B4AGoTLHrmVeuPzVi2SXgSfOrxdgEE8lDzdPD2/qG9FAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] {
+[8mha:////4L/btNWIXgnXwiw8CSHR/Ol/k8dZD+CbVg5qmCxA6tmIAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCakRFa6XhBSYxxo5159gOTsWL+Bp/IBCJii1WO9vM8wXrGODIQaNV1BuKrUHvRj0vzBz6q+OMli/YMkV2ChuVG+7UacGGk4IlRQkrARtFreNoSCfYCivvsnKSdHVOYf4OAkrTDfCAQszmJEP6whRgdxu7yPTz/BXA5BOU9f5TtX8D0loxuL4AAAA=[0m[Pipeline] sh
++ docker-compose -f docker-compose.backend.yml down
+Stopping nginx    ... 
+Stopping backend3 ... 
+Stopping backend2 ... 
+Stopping backend1 ... 
+Stopping nginx    ... done
+Stopping backend2 ... done
+Stopping backend3 ... done
+Stopping backend1 ... done
+Removing nginx    ... 
+Removing backend3 ... 
+Removing backend2 ... 
+Removing backend1 ... 
+Removing nginx    ... done
+Removing backend1 ... done
+Removing backend2 ... done
+Removing backend3 ... done
+Network prod_server is external, skipping
+[8mha:////4KaCnE3845yyRu52eWrZMFs3AfOxJ33In2j7GI3Y8mdhAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMYQM5W7/qe0bsgYiW74AAAA=[0m[Pipeline] }
+[8mha:////4K0ZxD83d7woWKduzjHwg/O090n73fIRfgtZSf8pAXPLAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsP6C1U670AAAA=[0m[Pipeline] // dir
+[8mha:////4PKlXgGJgD90BhDKpCM0OmUJFqAWko3dbihgSNLGQum7AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREgUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBNn+A27Bcy69AAAA[0m[Pipeline] }
+[8mha:////4GHJg8QvXYhfrA9tptuOwGveerqRI4ZXa7MfvVawW3zDAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBaJAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AE/1rIO9AAAA[0m[Pipeline] // stage
+[8mha:////4BYZsySZ/hAh8Yo7gf5ydvZZQ1B++tArH0HB72Ht3pW2AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjmjSIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDVDsas/x/INar4f38EAAAA=[0m[Pipeline] stage
+[8mha:////4Cq1wdItxnBDFfjicG/nJL9UHh3tMFimuYu4soOBS2TyAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Build)
+[8mha:////4KSbSil4mIqca0SKDGY8JTUBajui104xJMHBuxKhPmzaAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/backend5/backendProject
+[8mha:////4KDiq3LaF99h0k9w0JpDv0eWv34MeBC2i6Wt93MBGcKsAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4K3eFAYB12DoClYmT972jLP+dNuyy9SSg6LbOIlBcGd/AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] sh
++ chmod +x gradlew
+[8mha:////4DfkP0OZ9kyiHm/VBVhqQ6ZfOgfTu2YVp1IwadsKGHOrAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKOtDrn3tP1ih7y++AAAA[0m[Pipeline] sh
++ ./gradlew clean build
+Starting a Gradle Daemon (subsequent builds will be faster)
+> Task :clean
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :resolveMainClassName
+> Task :bootJar
+> Task :jar
+> Task :assemble
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+2025-06-23T02:27:22.564Z  INFO 1240 --- [backendProject] [ionShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2025-06-23T02:27:22.565Z  INFO 1240 --- [backendProject] [ionShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@41a3656f]]
+2025-06-23T02:27:22.565Z  INFO 1240 --- [backendProject] [ionShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2025-06-23T02:27:22.599Z  INFO 1240 --- [backendProject] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-23T02:27:22.622Z  INFO 1240 --- [backendProject] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-23T02:27:22.627Z  INFO 1240 --- [backendProject] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+> Task :test
+> Task :check
+> Task :build
+
+BUILD SUCCESSFUL in 21s
+9 actionable tasks: 9 executed
+[8mha:////4MILkrHAbkVAZCnq5VueB89nttrdHjqFM7ovPkUH+cu2AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIR6RCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPoukFhO+AAAA[0m[Pipeline] }
+[8mha:////4Hcz9taG3o+3dIewbTEweqqTJF0ohXNuaGgti++JTdDHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+4R02vvgAAAA==[0m[Pipeline] // dir
+[8mha:////4Jwq7lTvMf7nPBCn9qj9APaStk4EMPUBiIMvRg7bfmxnAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAkWr3Ir4AAAA=[0m[Pipeline] }
+[8mha:////4DoDC46bN8MgUfPCJBbxRJ3/wgU0X++Ybxs/dAZk0YqeAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+iiayevgAAAA==[0m[Pipeline] // stage
+[8mha:////4JiUG8SXUq+ZB1GTPbP4roBhTfky0GlYuD/rmaX0frEdAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjUaRBVLSWG15gEmOcWHfBvpBUvIiv8QcMkajYamel1TxfUKYIB4pOdhZ7j6nxcgijy01OFPtLoEl2dJYNYaJgpbaTptYeF9TEFpaIAlYK1habQMmjY9ioztxNFQy66sQxb3sFhW9v8AChsplN5C/MEbbXsU2EP89fAcwDg6gZil39OZZv96T37sEAAAA=[0m[Pipeline] stage
+[8mha:////4F7LzHv0P89LH9Jg0KhyeQ6m8ZJ0uGKGg16jc9Pwz7IPAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (Compose Up)
+[8mha:////4B/VCEtvgkAiySNl+5MNoDFrILTgYNJUGWs8c44gNxeTAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/backend5/backendProject
+[8mha:////4MbFC1PlqWhePW7vsi1eofw5b92CczYzLYef9sTUh1JMAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] {
+[8mha:////4NRKzMrupgDQlVDgm/D6y/8btLYRtL4Iawzdft+OObhTAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHN/bm5vgAAAA==[0m[Pipeline] sh
++ docker-compose -f docker-compose.backend.yml up -d --build
+Building backend1
+#1 [internal] load build definition from Dockerfile
+#1 sha256:9946c2c8f5a51a823c6f5607e151d3f0f9d23784dd18ee62524e38564365cd63
+#1 transferring dockerfile: 548B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/openjdk:17-jdk
+#2 sha256:ca51d00d9530d240e743cd0ab7d53583e2fed8269e748b1001b3fe78fb46ffcf
+#2 DONE 1.9s
+
+#3 [internal] load .dockerignore
+#3 sha256:8a7ba027ca70745608a10d3216f849a74f4a16d05dc0c52ff9d1b63945db9f93
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#5 [internal] load build context
+#5 sha256:866276fac8bd64645bf869eb2cb5b4a0a8812f115b29e0ec1042d54fc9ed2079
+#5 ...
+
+#7 [1/3] FROM docker.io/library/openjdk:17-jdk@sha256:528707081fdb9562eb819128a9f85ae7fe000e2fbaeaf9f87662e7b3f38cb7d8
+#7 sha256:f73aed2f80bd0e561c39fdfc2e68670e1949d1bfa96639f3c70771849d802a7e
+#7 resolve docker.io/library/openjdk:17-jdk@sha256:528707081fdb9562eb819128a9f85ae7fe000e2fbaeaf9f87662e7b3f38cb7d8 0.0s done
+#7 DONE 0.0s
+
+#5 [internal] load build context
+#5 sha256:866276fac8bd64645bf869eb2cb5b4a0a8812f115b29e0ec1042d54fc9ed2079
+#5 transferring context: 64.16MB 0.9s done
+#5 DONE 0.9s
+
+#6 [2/3] WORKDIR /app
+#6 sha256:ebfac0acd0d242235faaf3af5c14ddf7d85661355fc853ee47f047b0c80672c3
+#6 CACHED
+
+#4 [3/3] COPY build/libs/backendProject-0.0.1-SNAPSHOT.jar /app/backendProject-0.0.1-SNAPSHOT.jar
+#4 sha256:8e4e04bf617872fb2e73127e9f77e5940262cb1ec95c272617096820cea16011
+#4 DONE 0.2s
+
+#8 exporting to image
+#8 sha256:f8da8fa3ae54567f67833408d09af1047d3c57896171a65b5dbc29da658fdbbb
+#8 exporting layers
+#8 exporting layers 1.4s done
+#8 exporting manifest sha256:5c73bedd00a09859526f2322e7e968e33ededd6546b7d0952f28f30c4bc92bc2
+#8 exporting manifest sha256:5c73bedd00a09859526f2322e7e968e33ededd6546b7d0952f28f30c4bc92bc2 done
+#8 exporting config sha256:d80294ba11d6a76046a9bfb71b37188cf3dff5c8faa4826d57b2131138e8e888 done
+#8 naming to docker.io/library/backendproject_backend1:latest done
+#8 unpacking to docker.io/library/backendproject_backend1:latest
+#8 unpacking to docker.io/library/backendproject_backend1:latest 0.3s done
+#8 DONE 1.8s
+Building backend2
+#1 [internal] load build definition from Dockerfile
+#1 sha256:00dfa361fd6f012e8007d2b0688d7bba66b9174ef014d26cacb398627d76957f
+#1 transferring dockerfile: 548B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/openjdk:17-jdk
+#2 sha256:ca51d00d9530d240e743cd0ab7d53583e2fed8269e748b1001b3fe78fb46ffcf
+#2 DONE 0.3s
+
+#3 [internal] load .dockerignore
+#3 sha256:6bb24863627bc4e35d133e1161279ea8b64b0f9365bebd70876cfe8f4bb7c224
+#3 transferring context: 2B 0.0s done
+#3 DONE 0.0s
+
+#5 [internal] load build context
+#5 sha256:b834a7af0c5927775e7c789fe4432aa50c3ab7baf762f15376114d264ec45d09
+#5 transferring context: 123B 0.0s done
+#5 DONE 0.0s
+
+#7 [1/3] FROM docker.io/library/openjdk:17-jdk@sha256:528707081fdb9562eb819128a9f85ae7fe000e2fbaeaf9f87662e7b3f38cb7d8
+#7 sha256:f73aed2f80bd0e561c39fdfc2e68670e1949d1bfa96639f3c70771849d802a7e
+#7 resolve docker.io/library/openjdk:17-jdk@sha256:528707081fdb9562eb819128a9f85ae7fe000e2fbaeaf9f87662e7b3f38cb7d8 0.0s done
+#7 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 sha256:ebfac0acd0d242235faaf3af5c14ddf7d85661355fc853ee47f047b0c80672c3
+#6 CACHED
+
+#4 [3/3] COPY build/libs/backendProject-0.0.1-SNAPSHOT.jar /app/backendProject-0.0.1-SNAPSHOT.jar
+#4 sha256:57d6d8c0a8d154d05290ed450d45604a61bd4be0d36ed6fc256568ee421e85be
+#4 CACHED
+
+#8 exporting to image
+#8 sha256:8c0474d87b7c0cd67f5bf72c0ceab28c645175e09d47b8d82df2299e4832d441
+#8 exporting layers done
+#8 exporting manifest sha256:5c73bedd00a09859526f2322e7e968e33ededd6546b7d0952f28f30c4bc92bc2 done
+#8 exporting config sha256:d80294ba11d6a76046a9bfb71b37188cf3dff5c8faa4826d57b2131138e8e888 done
+#8 naming to docker.io/library/backendproject_backend2:latest done
+#8 unpacking to docker.io/library/backendproject_backend2:latest done
+#8 DONE 0.0s
+Building backend3
+#1 [internal] load build definition from Dockerfile
+#1 sha256:3e17a78ce67cfea395378b72f85e1661c26a0f8a65f64345f3f24bcbd8b774fd
+#1 transferring dockerfile: 548B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/openjdk:17-jdk
+#2 sha256:ca51d00d9530d240e743cd0ab7d53583e2fed8269e748b1001b3fe78fb46ffcf
+#2 DONE 0.3s
+
+#3 [internal] load .dockerignore
+#3 sha256:890d13f684e47f2f4c7bd687cdb6bd522b606626a29f2b508c1d6b2224e959ac
+#3 transferring context: 2B 0.0s done
+#3 DONE 0.0s
+
+#7 [1/3] FROM docker.io/library/openjdk:17-jdk@sha256:528707081fdb9562eb819128a9f85ae7fe000e2fbaeaf9f87662e7b3f38cb7d8
+#7 sha256:f73aed2f80bd0e561c39fdfc2e68670e1949d1bfa96639f3c70771849d802a7e
+#7 resolve docker.io/library/openjdk:17-jdk@sha256:528707081fdb9562eb819128a9f85ae7fe000e2fbaeaf9f87662e7b3f38cb7d8 0.0s done
+#7 DONE 0.0s
+
+#5 [internal] load build context
+#5 sha256:86ea2e51d569df69603b4f564fc1346d7a2f80c95f58f8f5ae2e4f3818533fcf
+#5 transferring context: 123B 0.0s done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 sha256:ebfac0acd0d242235faaf3af5c14ddf7d85661355fc853ee47f047b0c80672c3
+#6 CACHED
+
+#4 [3/3] COPY build/libs/backendProject-0.0.1-SNAPSHOT.jar /app/backendProject-0.0.1-SNAPSHOT.jar
+#4 sha256:7ac442f2ea79829d7966baa3806c3434c6da24a9e4004556a94cf6c0423e5f7d
+#4 CACHED
+
+#8 exporting to image
+#8 sha256:7195a9dadb21fbfaeec53c34ed05c35d63e1e190c8c0d9178fd31a9efa73494c
+#8 exporting layers done
+#8 exporting manifest sha256:5c73bedd00a09859526f2322e7e968e33ededd6546b7d0952f28f30c4bc92bc2 done
+#8 exporting config sha256:d80294ba11d6a76046a9bfb71b37188cf3dff5c8faa4826d57b2131138e8e888 done
+#8 naming to docker.io/library/backendproject_backend3:latest done
+#8 unpacking to docker.io/library/backendproject_backend3:latest done
+#8 DONE 0.0s
+Building nginx
+#1 [internal] load build definition from Dockerfile
+#1 sha256:6f0380ca7f8fcc4fb5ec78d818d0eadf59371081936a336962251ae0b2d2d947
+#1 transferring dockerfile: 125B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/nginx:latest
+#2 sha256:9ad844bdd951526fe21f5db65442779c28ef3778b7341f24b3fff4059e36d00e
+#2 DONE 1.6s
+
+#3 [internal] load .dockerignore
+#3 sha256:e829dce8c93534b7cc8a7604b11c609b7d555614285b6a843e9a04a12f40f720
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#5 [internal] load build context
+#5 sha256:cc53676ba45bb20e9a76f6626a2e99b2f0d1c37273c5d02fb4fdc90941b74a6a
+#5 transferring context: 32B done
+#5 DONE 0.0s
+
+#7 [1/3] FROM docker.io/library/nginx:latest@sha256:6784fb0834aa7dbbe12e3d7471e69c290df3e6ba810dc38b34ae33d3c1c05f7d
+#7 sha256:482ba73b64b19c4bf20fa66e28c2577dbcd53fe52256d24e3a697d1aa76954bd
+#7 resolve docker.io/library/nginx:latest@sha256:6784fb0834aa7dbbe12e3d7471e69c290df3e6ba810dc38b34ae33d3c1c05f7d 0.0s done
+#7 DONE 0.0s
+
+#6 [2/3] RUN rm /etc/nginx/nginx.conf
+#6 sha256:9c879ad27476516614a40e6ef287e7c49a02816335adbec8c8fdcc7f00800d1c
+#6 CACHED
+
+#4 [3/3] COPY ./nginx.conf /etc/nginx/nginx.conf
+#4 sha256:ae7f3903de77d6684d5e399aee3bafaf345e7260ae21f16c323fc9ce39c977e4
+#4 CACHED
+
+#8 exporting to image
+#8 sha256:a30c0b03d6d1f7df3846e00c899abf0e8939c026b8a94a50badafd7cb8d3fc9f
+#8 exporting layers done
+#8 exporting manifest sha256:560b7ea89d0ca8137bc636943b39b8ccc3e802cedfd164deec7f934981e2a87f
+#8 exporting manifest sha256:560b7ea89d0ca8137bc636943b39b8ccc3e802cedfd164deec7f934981e2a87f done
+#8 exporting config sha256:c9c55924873e282cbd9a26cacc22b8ba2367580fff0da693e965bcf34cdc3edc done
+#8 naming to docker.io/library/backendproject_nginx:latest done
+#8 unpacking to docker.io/library/backendproject_nginx:latest done
+#8 DONE 0.0s
+Creating backend3 ... 
+Creating backend2 ... 
+Creating backend1 ... 
+Creating backend2 ... done
+Creating backend3 ... done
+Creating backend1 ... done
+Creating nginx    ... 
+Creating nginx    ... done
+[8mha:////4BNMbUBfVX01I5Qr+jAqGHBg1oQgFAtGPvG6r8j3hxQgAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AFSjtgYvgAAAA==[0m[Pipeline] }
+[8mha:////4MrAI6WZMIxmrGSO5o0nyaiebO9oN4BLBQ0BRzYHXepqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQYJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw9qzEvpvgAAAA==[0m[Pipeline] // dir
+[8mha:////4NtV655RWTz6pW9kGtGDubmvpVa2QzOFvWfXlbv6RHF+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRSEGBqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZ17n2hw9eAqiyvgAAAA==[0m[Pipeline] }
+[8mha:////4IXGg7w2xuNCkwP2XDpmrIf5+gyXwNc9EMMlXipKpto7AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAaJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw9wAqrYvgAAAA==[0m[Pipeline] // stage
+[8mha:////4PyIxL83GHzXNP7p4RckmsTx/OYjHVhmx3x81zMslNDTAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTIGgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxWb7OZZv7d0UzsEAAAA=[0m[Pipeline] stage
+[8mha:////4M6WAHTjoe8T0VqbAYT3c2GpBnZ3GBJsfDFoggsvPfAOAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] { (Restart Nginx)
+[8mha:////4PABvTc61v42sYDsdGBaYg2cZqF9YVXukmJSxMogdkBwAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAF9GxrMvgAAAA==[0m[Pipeline] sh
++ docker restart nginx
+nginx
+[8mha:////4CWZ7fbwT+L/XMNIqriEIEkBVpl7t6tMaIcEHW2TTicqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g1K83O2vgAAAA==[0m[Pipeline] }
+[8mha:////4Pe2Pbogsub7mU/bMlP19qs9eEknXr87CBYKooItinvkAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIAqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFVcSbkvgAAAA==[0m[Pipeline] // stage
+[8mha:////4O48yrS6hKfrRgNNps9g1OdiKMTD7i377prTdo5eCAsDAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKhQDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPGtuGbL0AAAA=[0m[Pipeline] }
+[8mha:////4KjsJ8eZGgXEeXXrcR9EuUW0fZPX2u1Gp1zOGh7LYGnAAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRElSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPEKPvyL0AAAA=[0m[Pipeline] // withEnv
+[8mha:////4GoQPHhTTRP2ri5/BnJz3FWN4tOiZ9o98t7ZZnNcvZYGAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6Ikhs04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAVulI+L0AAAA=[0m[Pipeline] }
+[8mha:////4KsgV4RvXGFWuETIkA1YcXQBGDB15HSNnRrP9j2+Z91bAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU2DlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyfSnIyg9FVUxbvQAAAA==[0m[Pipeline] // node
+[8mha:////4Ci3knBGmvYqGfrVuxljo2OxXi3he93XIqaozdfCMZDHAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6Ikhs04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8Aw7lrnr0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

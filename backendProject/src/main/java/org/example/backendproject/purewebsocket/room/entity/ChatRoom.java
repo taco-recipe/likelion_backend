@@ -1,6 +1,5 @@
 package org.example.backendproject.purewebsocket.room.entity;
 
-
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
@@ -17,4 +16,5 @@ public class ChatRoom {
 
     @Column(unique = true)
     private String roomId;
+
 }
