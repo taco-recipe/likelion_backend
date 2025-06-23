@@ -94,7 +94,7 @@
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
-      <artifactId>workflow-durable-ta***REMOVED***step</artifactId>
+      <artifactId>workflow-durable-task-step</artifactId>
       <version>1398.vf6c9e89e5988</version>
       <scope>runtime</scope>
     </dependency>

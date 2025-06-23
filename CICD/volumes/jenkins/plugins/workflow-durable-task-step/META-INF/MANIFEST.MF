@@ -6,10 +6,10 @@ Specification-Version: 0.0
 Implementation-Title: Pipeline: Nodes and Processes
 Implementation-Version: 1405.v1fcd4a_d00096
 Group-Id: org.jenkins-ci.plugins.workflow
-Artifact-Id: workflow-durable-ta***REMOVED***step
-Short-Name: workflow-durable-ta***REMOVED***step
+Artifact-Id: workflow-durable-task-step
+Short-Name: workflow-durable-task-step
 Long-Name: Pipeline: Nodes and Processes
-Url: https://github.com/jenkinsci/workflow-durable-ta***REMOVED***step-plugin
+Url: https://github.com/jenkinsci/workflow-durable-task-step-plugin
 Compatible-Since-Version: 2.40
 Plugin-Version: 1405.v1fcd4a_d00096
 Hudson-Version: 2.479.1
@@ -22,9 +22,9 @@ Plugin-Developers:
 Plugin-License-Name: MIT License
 Plugin-License-Url: https://opensource.org/licenses/MIT
 Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/workflow-dura
- ble-ta***REMOVED***step-plugin.git
+ ble-task-step-plugin.git
 Plugin-ScmTag: 1fcd4ad000969775b606e309f9a72d9ba5e58008
-Plugin-ScmUrl: https://github.com/jenkinsci/workflow-durable-ta***REMOVED***step-p
+Plugin-ScmUrl: https://github.com/jenkinsci/workflow-durable-task-step-p
  lugin
 Implementation-Build: 1fcd4ad000969775b606e309f9a72d9ba5e58008
 

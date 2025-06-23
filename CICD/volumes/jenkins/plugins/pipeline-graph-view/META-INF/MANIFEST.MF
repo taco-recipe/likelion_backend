@@ -14,7 +14,7 @@ Plugin-Version: 580.v8f4746b_45a_a_d
 Hudson-Version: 2.479.3
 Jenkins-Version: 2.479.3
 Plugin-Dependencies: ionicons-api:74.v93d5eb_813d5f,workflow-cps:4018.vf
- 02e01888da_f,workflow-durable-ta***REMOVED***step:1405.v1fcd4a_d00096,workflow-jo
+ 02e01888da_f,workflow-durable-task-step:1405.v1fcd4a_d00096,workflow-jo
  b:1505.vea_4b_20a_4a_495,display-url-api:2.209.v582ed814ff2f,git:5.7.0;
  resolution:=optional,github-branch-source:1810.v913311241fa_9;resolutio
  n:=optional,junit:1314.vd966e9a_88895;resolution:=optional,metrics:4.2.

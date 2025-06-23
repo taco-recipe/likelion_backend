@@ -1,30 +1,46 @@
-Started by user [8mha:////4BxF+AYt4xwxo/OqaFyoj7UsAilbO2xwDKV5RvJxq05aAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
-[8mha:////4EShChUodNTqOE989fTEyDQvzkaUqptcN7rsR2Zd4cmSAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
-[8mha:////4L8eJi72Fa0XZd2m3INMGAytuT9VVmHlOnlmYUYjNpGWAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
-Running on [8mha:////4CZIz2zZLi6jYKOtmuQgXR4Cq0avZxmUduu2/wZEieAwAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/backend
-[8mha:////4BKCiAVxBTmkDVR51Y6W8/f2Gg2C63TRgpEhCIAiNz3vAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
-[8mha:////4KbdM0D5TvLj1e/TJ0jhCWyY+3LcuU09OVaz8VFAQN2gAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] withEnv
-[8mha:////4HR/Naz9bNzRxMQz7lzAupuXCjbW7qyRof13gU8pLmX5AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
-[8mha:////4CDrwRFr94NhOuGVQGhh5CbmX8zdZNhfEeIaxfJjpCRSAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
-[8mha:////4L7XBzHSQ1qK7LnaJdxkxgO43e56lzlroMIlcAe2U70MAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Cleanup Containers)
-[8mha:////4DkMSTEYKxisOR0xYcXyw4fiWvX/Opc7cMI0JXIdLMxZAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] dir
-Running in /var/jenkins_home/workspace/backend5/backendProject
-[8mha:////4B4AGoTLHrmVeuPzVi2SXgSfOrxdgEE8lDzdPD2/qG9FAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] {
-[8mha:////4L/btNWIXgnXwiw8CSHR/Ol/k8dZD+CbVg5qmCxA6tmIAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCakRFa6XhBSYxxo5159gOTsWL+Bp/IBCJii1WO9vM8wXrGODIQaNV1BuKrUHvRj0vzBz6q+OMli/YMkV2ChuVG+7UacGGk4IlRQkrARtFreNoSCfYCivvsnKSdHVOYf4OAkrTDfCAQszmJEP6whRgdxu7yPTz/BXA5BOU9f5TtX8D0loxuL4AAAA=[0m[Pipeline] sh
+Started by user [8mha:////4AYPKdT278K0Q2/Q6OrucjeWxUfg6FKRmE5JOoVP+HOSAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4DACrZ+cTtMALdCdro0DzdN21CjSkhAj6ANbjLX8wvEsAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4AC674dwRntcMNcWyBC6JjH3bXVsJx/JT3V6C3iXqllQAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4Aig+jiW+utOAciSpdvwxe61X2ihgwugggleK1aUT0qKAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/backend
+[8mha:////4EYvMHJ+IY9V3szZLheEKuVizi0rIYr/DgS/8azIc82aAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4NzE8W+aoue/u5AG2zWndaGUfIqnRlOfWYiO0XbL1ak8AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] withEnv
+[8mha:////4KG0Moiv7RwQBj9xAUWaGh6HCQQXq1f0/ECJrtWX/AM/AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4BFtfaF2NoToBkh3s01ERlP0BJrZH/VadqJB6+LlaHgiAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4OgOTkMpku7VEzBVcM8VojTwro1kuFrAkTUpZ2eEOg+GAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Cleanup Containers)
+[8mha:////4GerrHQw5mGHfhNHeuZlAMm+QV4vy1tUpiA/D7bbqaNHAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/backendProject
+[8mha:////4Btir1p1SsZRPkchpb1j/hmbUzLpnqeEboH6d63v4F5xAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] {
+[8mha:////4PGCTty5vcKGnALruibRWG6H6nVVgfiO2DbPkLgR+PssAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCakRFa6XhBSYxxo5159gOTsWL+Bp/IBCJii1WO9vM8wXrGODIQaNV1BuKrUHvRj0vzBz6q+OMli/YMkV2ChuVG+7UacGGk4IlRQkrARtFreNoSCfYCivvsnKSdHVOYf4OAkrTDfCAQszmJEP6whRgdxu7yPTz/BXA5BOU9f5TtX8D0loxuL4AAAA=[0m[Pipeline] sh
 + docker-compose -f docker-compose.backend.yml down
+Stopping nginx    ... 
+Stopping backend1 ... 
+Stopping backend2 ... 
+Stopping backend3 ... 
+Stopping nginx    ... done
+Stopping backend1 ... done
+Stopping backend3 ... done
+Stopping backend2 ... done
+Removing nginx    ... 
+Removing backend1 ... 
+Removing backend2 ... 
+Removing backend3 ... 
+Removing backend2 ... done
+Removing backend1 ... done
+Removing nginx    ... done
+Removing backend3 ... done
 Network prod_server is external, skipping
-[8mha:////4KaCnE3845yyRu52eWrZMFs3AfOxJ33In2j7GI3Y8mdhAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMYQM5W7/qe0bsgYiW74AAAA=[0m[Pipeline] }
-[8mha:////4K0ZxD83d7woWKduzjHwg/O090n73fIRfgtZSf8pAXPLAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsP6C1U670AAAA=[0m[Pipeline] // dir
-[8mha:////4PKlXgGJgD90BhDKpCM0OmUJFqAWko3dbihgSNLGQum7AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREgUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBNn+A27Bcy69AAAA[0m[Pipeline] }
-[8mha:////4GHJg8QvXYhfrA9tptuOwGveerqRI4ZXa7MfvVawW3zDAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBaJAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AE/1rIO9AAAA[0m[Pipeline] // stage
-[8mha:////4BYZsySZ/hAh8Yo7gf5ydvZZQ1B++tArH0HB72Ht3pW2AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjmjSIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDVDsas/x/INar4f38EAAAA=[0m[Pipeline] stage
-[8mha:////4Cq1wdItxnBDFfjicG/nJL9UHh3tMFimuYu4soOBS2TyAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Build)
-[8mha:////4KSbSil4mIqca0SKDGY8JTUBajui104xJMHBuxKhPmzaAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] dir
-Running in /var/jenkins_home/workspace/backend5/backendProject
-[8mha:////4KDiq3LaF99h0k9w0JpDv0eWv34MeBC2i6Wt93MBGcKsAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
-[8mha:////4K3eFAYB12DoClYmT972jLP+dNuyy9SSg6LbOIlBcGd/AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] sh
+[8mha:////4KqA7Js8/oa0xC3wYYoQbP6DhfaqmbJzdJa9/V/HmADpAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMYQM5W7/qe0bsgYiW74AAAA=[0m[Pipeline] }
+[8mha:////4JF/i0Nx+XyxmvzIgz9KLIW6ZEDLNgFYOEVMfpTcXTXmAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsP6C1U670AAAA=[0m[Pipeline] // dir
+[8mha:////4KO3ptXtCSWYKxH5agSLu+oXYSBWP8jGOT5CSbZWCIT/AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREgUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBNn+A27Bcy69AAAA[0m[Pipeline] }
+[8mha:////4O12H5eWlEPDq8Jc3jSygTNkmgXwOypKG9zOD7NC4vKoAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBaJAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AE/1rIO9AAAA[0m[Pipeline] // stage
+[8mha:////4Dsk8BP3W+ytdQGDmGQkkTJsMRRasptdxrF5ZiBl0krtAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjmjSIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDVDsas/x/INar4f38EAAAA=[0m[Pipeline] stage
+[8mha:////4B6MuWhlgDExDRE1a8KXXDrv1DbnbJE0DBw6IkoQ1fQvAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Build)
+[8mha:////4CCAzJqeA0eK9yGXyI55ea5VhAhUZyJ/O0t/B+N+J8hIAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/backendProject
+[8mha:////4BUXH9Sp2jfI8WyGIB9ME2cL4vB63e9S8Ui0uQLDwqtlAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4J3BbHDbl2Sj2OnW2d5usKHz7ap/KRtrRULYJmdR43/6AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] sh
 + chmod +x gradlew
-[8mha:////4DfkP0OZ9kyiHm/VBVhqQ6ZfOgfTu2YVp1IwadsKGHOrAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKOtDrn3tP1ih7y++AAAA[0m[Pipeline] sh
+[8mha:////4Hst5MhFuXP6pKA3BU14Cg+naiafS2J0RFxqgwoB0ZXGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKOtDrn3tP1ih7y++AAAA[0m[Pipeline] sh
 + ./gradlew clean build
 Downloading https://services.gradle.org/distributions/gradle-8.14.2-bin.zip
 .............10%.............20%.............30%.............40%.............50%.............60%.............70%.............80%.............90%..............100%
@@ -40,229 +56,364 @@ Here are the highlights of this release:
 For more details see https://docs.gradle.org/8.14.2/release-notes.html
 
 Starting a Gradle Daemon (subsequent builds will be faster)
-> Task :clean
+> Task :clean UP-TO-DATE
+
 > Task :compileJava
-> Task :processResources
-> Task :classes
-> Task :resolveMainClassName
-> Task :bootJar
-> Task :jar
-> Task :assemble
-> Task :compileTestJava
-> Task :processTestResources
-> Task :testClasses
-2025-06-23T01:30:01.755Z  INFO 480 --- [backendProject] [ionShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
-2025-06-23T01:30:01.756Z  INFO 480 --- [backendProject] [ionShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@371a7fd5]]
-2025-06-23T01:30:01.756Z  INFO 480 --- [backendProject] [ionShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
-2025-06-23T01:30:01.775Z  INFO 480 --- [backendProject] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-06-23T01:30:01.779Z  INFO 480 --- [backendProject] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-06-23T01:30:01.781Z  INFO 480 --- [backendProject] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-> Task :test
-> Task :check
-> Task :build
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/purewebsocket/config/webSocketConfig.java:11: error: class WebSocketConfig is public, should be declared in a file named WebSocketConfig.java
+public class WebSocketConfig implements WebSocketConfigurer {
+       ^
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/purewebsocket/handler/ChatWebSocketHandler.java:48: error: cannot find symbol
+        String roomID = chatMessage.getRoomId(); //클라이언트에게 받은 메세지에서 roomID를 추출
+                                   ^
+  symbol:   method getRoomId()
+  location: variable chatMessage of type ChatMessage
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/purewebsocket/handler/ChatWebSocketHandler.java:61: error: cannot find symbol
+                System.out.println("전송된 메세지 = "+chatMessage.getMessage());
+                                                           ^
+  symbol:   method getMessage()
+  location: variable chatMessage of type ChatMessage
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/purewebsocket/room/service/RoomService.java:22: error: cannot find symbol
+                    newRoom.setRoomId(roomId);
+                           ^
+  symbol:   method setRoomId(String)
+  location: variable newRoom of type ChatRoom
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:28: error: cannot find symbol
+        if (userRepository.findByUserid(dto.getUserid()).isPresent()){
+                                           ^
+  symbol:   method getUserid()
+  location: variable dto of type SignUpRequestDTO
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:33: error: cannot find symbol
+        user.setUserid(dto.getUserid());
+                          ^
+  symbol:   method getUserid()
+  location: variable dto of type SignUpRequestDTO
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:34: error: cannot find symbol
+        user.setPassword(dto.getPassword());
+                            ^
+  symbol:   method getPassword()
+  location: variable dto of type SignUpRequestDTO
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:37: error: cannot find symbol
+        profile.setUsername(dto.getUsername());
+                               ^
+  symbol:   method getUsername()
+  location: variable dto of type SignUpRequestDTO
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:38: error: cannot find symbol
+        profile.setEmail(dto.getEmail());
+                            ^
+  symbol:   method getEmail()
+  location: variable dto of type SignUpRequestDTO
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:39: error: cannot find symbol
+        profile.setPhone(dto.getPhone());
+                            ^
+  symbol:   method getPhone()
+  location: variable dto of type SignUpRequestDTO
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:40: error: cannot find symbol
+        profile.setAddress(dto.getAddress());
+                              ^
+  symbol:   method getAddress()
+  location: variable dto of type SignUpRequestDTO
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:43: error: cannot find symbol
+        profile.setUser(user);
+               ^
+  symbol:   method setUser(User)
+  location: variable profile of type UserProfile
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:44: error: cannot find symbol
+        user.setUserProfile(profile);
+            ^
+  symbol:   method setUserProfile(UserProfile)
+  location: variable user of type User
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:52: error: cannot find symbol
+        User user = userRepository.findByUserid(loginRequestDTO.getUserid())
+                                                               ^
+  symbol:   method getUserid()
+  location: variable loginRequestDTO of type LoginRequestDTO
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:54: error: cannot find symbol
+        if(!loginRequestDTO.getPassword().equals(user.getPassword())) {
+                           ^
+  symbol:   method getPassword()
+  location: variable loginRequestDTO of type LoginRequestDTO
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:54: error: cannot find symbol
+        if(!loginRequestDTO.getPassword().equals(user.getPassword())) {
+                                                     ^
+  symbol:   method getPassword()
+  location: variable user of type User
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:59: error: cannot find symbol
+        userDTO.setId(user.getId());
+                          ^
+  symbol:   method getId()
+  location: variable user of type User
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:60: error: cannot find symbol
+        userDTO.setUserid(user.getUserid());
+                              ^
+  symbol:   method getUserid()
+  location: variable user of type User
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:62: error: cannot find symbol
+        userDTO.setUsername(user.getUserProfile().getUsername());
+                                ^
+  symbol:   method getUserProfile()
+  location: variable user of type User
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:63: error: cannot find symbol
+        userDTO.setEmail(user.getUserProfile().getEmail());
+                             ^
+  symbol:   method getUserProfile()
+  location: variable user of type User
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:64: error: cannot find symbol
+        userDTO.setPhone(user.getUserProfile().getPhone());
+                             ^
+  symbol:   method getUserProfile()
+  location: variable user of type User
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:65: error: cannot find symbol
+        userDTO.setAddress(user.getUserProfile().getAddress());
+                               ^
+  symbol:   method getUserProfile()
+  location: variable user of type User
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/stompwebsocket/redis/RedisSubscriber.java:26: error: cannot find symbol
+            if (chatMessage.getTo() != null && !chatMessage.getTo().isEmpty()) {
+                           ^
+  symbol:   method getTo()
+  location: variable chatMessage of type ChatMessage
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/stompwebsocket/redis/RedisSubscriber.java:26: error: cannot find symbol
+            if (chatMessage.getTo() != null && !chatMessage.getTo().isEmpty()) {
+                                                           ^
+  symbol:   method getTo()
+  location: variable chatMessage of type ChatMessage
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/stompwebsocket/redis/RedisSubscriber.java:28: error: cannot find symbol
+                simpMessagingTemplate.convertAndSendToUser(chatMessage.getTo(), "/queue/private", chatMessage);
+                                                                      ^
+  symbol:   method getTo()
+  location: variable chatMessage of type ChatMessage
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/stompwebsocket/redis/RedisSubscriber.java:31: error: cannot find symbol
+                simpMessagingTemplate.convertAndSend("/topic/room." + chatMessage.getRoomId(), chatMessage);
+                                                                                 ^
+  symbol:   method getRoomId()
+  location: variable chatMessage of type ChatMessage
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/stompwebsocket/controller/ChatController.java:38: error: cannot find symbol
+        String getResponse = gptService.gptMessage(message.getMessage());
+                                                          ^
+  symbol:   method getMessage()
+  location: variable message of type ChatMessage
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/stompwebsocket/controller/ChatController.java:51: error: cannot find symbol
+        message.setMessage(instansName+" "+message.getMessage());
+                                                  ^
+  symbol:   method getMessage()
+  location: variable message of type ChatMessage
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/stompwebsocket/controller/ChatController.java:56: error: cannot find symbol
+        if (message.getTo() != null && !message.getTo().isEmpty()) {
+                   ^
+  symbol:   method getTo()
+  location: variable message of type ChatMessage
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/stompwebsocket/controller/ChatController.java:56: error: cannot find symbol
+        if (message.getTo() != null && !message.getTo().isEmpty()) {
+                                               ^
+  symbol:   method getTo()
+  location: variable message of type ChatMessage
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/stompwebsocket/controller/ChatController.java:58: error: cannot find symbol
+            channel = "private."+message.getRoomId();
+                                        ^
+  symbol:   method getRoomId()
+  location: variable message of type ChatMessage
+/var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/stompwebsocket/controller/ChatController.java:63: error: cannot find symbol
+            channel = "room."+message.getRoomId();
+                                     ^
+  symbol:   method getRoomId()
+  location: variable message of type ChatMessage
+32 errors
 
-BUILD SUCCESSFUL in 54s
-9 actionable tasks: 9 executed
-[8mha:////4MILkrHAbkVAZCnq5VueB89nttrdHjqFM7ovPkUH+cu2AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIR6RCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPoukFhO+AAAA[0m[Pipeline] }
-[8mha:////4Hcz9taG3o+3dIewbTEweqqTJF0ohXNuaGgti++JTdDHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+4R02vvgAAAA==[0m[Pipeline] // dir
-[8mha:////4Jwq7lTvMf7nPBCn9qj9APaStk4EMPUBiIMvRg7bfmxnAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAkWr3Ir4AAAA=[0m[Pipeline] }
-[8mha:////4DoDC46bN8MgUfPCJBbxRJ3/wgU0X++Ybxs/dAZk0YqeAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+iiayevgAAAA==[0m[Pipeline] // stage
-[8mha:////4JiUG8SXUq+ZB1GTPbP4roBhTfky0GlYuD/rmaX0frEdAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjUaRBVLSWG15gEmOcWHfBvpBUvIiv8QcMkajYamel1TxfUKYIB4pOdhZ7j6nxcgijy01OFPtLoEl2dJYNYaJgpbaTptYeF9TEFpaIAlYK1habQMmjY9ioztxNFQy66sQxb3sFhW9v8AChsplN5C/MEbbXsU2EP89fAcwDg6gZil39OZZv96T37sEAAAA=[0m[Pipeline] stage
-[8mha:////4F7LzHv0P89LH9Jg0KhyeQ6m8ZJ0uGKGg16jc9Pwz7IPAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (Compose Up)
-[8mha:////4B/VCEtvgkAiySNl+5MNoDFrILTgYNJUGWs8c44gNxeTAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] dir
-Running in /var/jenkins_home/workspace/backend5/backendProject
-[8mha:////4MbFC1PlqWhePW7vsi1eofw5b92CczYzLYef9sTUh1JMAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] {
-[8mha:////4NRKzMrupgDQlVDgm/D6y/8btLYRtL4Iawzdft+OObhTAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHN/bm5vgAAAA==[0m[Pipeline] sh
-+ docker-compose -f docker-compose.backend.yml up -d --build
-Building backend1
-#1 [internal] load build definition from Dockerfile
-#1 sha256:1058fb2a4f28752e7970ca1b2baf66fcd710aea39606800bf244b7bb7fdb0726
-#1 transferring dockerfile: 548B 0.0s done
-#1 DONE 0.0s
+> Task :compileJava FAILED
 
-#2 [internal] load metadata for docker.io/library/openjdk:17-jdk
-#2 sha256:ca51d00d9530d240e743cd0ab7d53583e2fed8269e748b1001b3fe78fb46ffcf
-#2 DONE 1.8s
+[Incubating] Problems report is available at: file:///var/jenkins_home/workspace/backendProject/build/reports/problems/problems-report.html
 
-#3 [internal] load .dockerignore
-#3 sha256:c083a8e1e0734db9d46ebd07c52a080d701d62aa0dd250bbed0e3c7b4e8506d9
-#3 transferring context: 2B done
-#3 DONE 0.0s
+FAILURE: Build failed with an exception.
 
-#7 [1/3] FROM docker.io/library/openjdk:17-jdk@sha256:528707081fdb9562eb819128a9f85ae7fe000e2fbaeaf9f87662e7b3f38cb7d8
-#7 sha256:f73aed2f80bd0e561c39fdfc2e68670e1949d1bfa96639f3c70771849d802a7e
-#7 resolve docker.io/library/openjdk:17-jdk@sha256:528707081fdb9562eb819128a9f85ae7fe000e2fbaeaf9f87662e7b3f38cb7d8 0.0s done
-#7 DONE 0.0s
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/purewebsocket/handler/ChatWebSocketHandler.java:48: error: cannot find symbol
+          String roomID = chatMessage.getRoomId(); //클라이언트에게 받은 메세지에서 roomID를 추출
+                                     ^
+    symbol:   method getRoomId()
+    location: variable chatMessage of type ChatMessage
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/purewebsocket/handler/ChatWebSocketHandler.java:61: error: cannot find symbol
+                  System.out.println("전송된 메세지 = "+chatMessage.getMessage());
+                                                             ^
+    symbol:   method getMessage()
+    location: variable chatMessage of type ChatMessage
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/purewebsocket/room/service/RoomService.java:22: error: cannot find symbol
+                      newRoom.setRoomId(roomId);
+                             ^
+    symbol:   method setRoomId(String)
+    location: variable newRoom of type ChatRoom
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:28: error: cannot find symbol
+          if (userRepository.findByUserid(dto.getUserid()).isPresent()){
+                                             ^
+    symbol:   method getUserid()
+    location: variable dto of type SignUpRequestDTO
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:33: error: cannot find symbol
+          user.setUserid(dto.getUserid());
+                            ^
+    symbol:   method getUserid()
+    location: variable dto of type SignUpRequestDTO
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:34: error: cannot find symbol
+          user.setPassword(dto.getPassword());
+                              ^
+    symbol:   method getPassword()
+    location: variable dto of type SignUpRequestDTO
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:37: error: cannot find symbol
+          profile.setUsername(dto.getUsername());
+                                 ^
+    symbol:   method getUsername()
+    location: variable dto of type SignUpRequestDTO
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:38: error: cannot find symbol
+          profile.setEmail(dto.getEmail());
+                              ^
+    symbol:   method getEmail()
+    location: variable dto of type SignUpRequestDTO
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:39: error: cannot find symbol
+          profile.setPhone(dto.getPhone());
+                              ^
+    symbol:   method getPhone()
+    location: variable dto of type SignUpRequestDTO
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:40: error: cannot find symbol
+          profile.setAddress(dto.getAddress());
+                                ^
+    symbol:   method getAddress()
+    location: variable dto of type SignUpRequestDTO
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:43: error: cannot find symbol
+          profile.setUser(user);
+                 ^
+    symbol:   method setUser(User)
+    location: variable profile of type UserProfile
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:44: error: cannot find symbol
+          user.setUserProfile(profile);
+              ^
+    symbol:   method setUserProfile(UserProfile)
+    location: variable user of type User
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:52: error: cannot find symbol
+          User user = userRepository.findByUserid(loginRequestDTO.getUserid())
+                                                                 ^
+    symbol:   method getUserid()
+    location: variable loginRequestDTO of type LoginRequestDTO
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:54: error: cannot find symbol
+          if(!loginRequestDTO.getPassword().equals(user.getPassword())) {
+                             ^
+    symbol:   method getPassword()
+    location: variable loginRequestDTO of type LoginRequestDTO
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:54: error: cannot find symbol
+          if(!loginRequestDTO.getPassword().equals(user.getPassword())) {
+                                                       ^
+    symbol:   method getPassword()
+    location: variable user of type User
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:59: error: cannot find symbol
+          userDTO.setId(user.getId());
+                            ^
+    symbol:   method getId()
+    location: variable user of type User
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:60: error: cannot find symbol
+          userDTO.setUserid(user.getUserid());
+                                ^
+    symbol:   method getUserid()
+    location: variable user of type User
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:62: error: cannot find symbol
+          userDTO.setUsername(user.getUserProfile().getUsername());
+                                  ^
+    symbol:   method getUserProfile()
+    location: variable user of type User
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:63: error: cannot find symbol
+          userDTO.setEmail(user.getUserProfile().getEmail());
+                               ^
+    symbol:   method getUserProfile()
+    location: variable user of type User
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:64: error: cannot find symbol
+          userDTO.setPhone(user.getUserProfile().getPhone());
+                               ^
+    symbol:   method getUserProfile()
+    location: variable user of type User
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/Auth/service/AuthService.java:65: error: cannot find symbol
+          userDTO.setAddress(user.getUserProfile().getAddress());
+                                 ^
+    symbol:   method getUserProfile()
+    location: variable user of type User
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/stompwebsocket/redis/RedisSubscriber.java:26: error: cannot find symbol
+              if (chatMessage.getTo() != null && !chatMessage.getTo().isEmpty()) {
+                             ^
+    symbol:   method getTo()
+    location: variable chatMessage of type ChatMessage
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/stompwebsocket/redis/RedisSubscriber.java:26: error: cannot find symbol
+              if (chatMessage.getTo() != null && !chatMessage.getTo().isEmpty()) {
+                                                             ^
+    symbol:   method getTo()
+    location: variable chatMessage of type ChatMessage
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/stompwebsocket/redis/RedisSubscriber.java:28: error: cannot find symbol
+                  simpMessagingTemplate.convertAndSendToUser(chatMessage.getTo(), "/queue/private", chatMessage);
+                                                                        ^
+    symbol:   method getTo()
+    location: variable chatMessage of type ChatMessage
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/stompwebsocket/redis/RedisSubscriber.java:31: error: cannot find symbol
+                  simpMessagingTemplate.convertAndSend("/topic/room." + chatMessage.getRoomId(), chatMessage);
+                                                                                   ^
+    symbol:   method getRoomId()
+    location: variable chatMessage of type ChatMessage
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/stompwebsocket/controller/ChatController.java:38: error: cannot find symbol
+          String getResponse = gptService.gptMessage(message.getMessage());
+                                                            ^
+    symbol:   method getMessage()
+    location: variable message of type ChatMessage
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/stompwebsocket/controller/ChatController.java:51: error: cannot find symbol
+          message.setMessage(instansName+" "+message.getMessage());
+                                                    ^
+    symbol:   method getMessage()
+    location: variable message of type ChatMessage
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/stompwebsocket/controller/ChatController.java:56: error: cannot find symbol
+          if (message.getTo() != null && !message.getTo().isEmpty()) {
+                     ^
+    symbol:   method getTo()
+    location: variable message of type ChatMessage
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/stompwebsocket/controller/ChatController.java:56: error: cannot find symbol
+          if (message.getTo() != null && !message.getTo().isEmpty()) {
+                                                 ^
+    symbol:   method getTo()
+    location: variable message of type ChatMessage
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/stompwebsocket/controller/ChatController.java:58: error: cannot find symbol
+              channel = "private."+message.getRoomId();
+                                          ^
+    symbol:   method getRoomId()
+    location: variable message of type ChatMessage
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/stompwebsocket/controller/ChatController.java:63: error: cannot find symbol
+              channel = "room."+message.getRoomId();
+                                       ^
+    symbol:   method getRoomId()
+    location: variable message of type ChatMessage
+  /var/jenkins_home/workspace/backendProject/src/main/java/org/example/backendproject/purewebsocket/config/webSocketConfig.java:11: error: class WebSocketConfig is public, should be declared in a file named WebSocketConfig.java
+  public class WebSocketConfig implements WebSocketConfigurer {
+         ^
+  32 errors
 
-#5 [internal] load build context
-#5 sha256:5fa0ad253d6ba0618e5e6aec8cac355ea50421d9cce9fe55c0a340ef30f896ba
-#5 transferring context: 64.16MB 0.9s done
-#5 DONE 1.0s
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights.
 
-#6 [2/3] WORKDIR /app
-#6 sha256:ebfac0acd0d242235faaf3af5c14ddf7d85661355fc853ee47f047b0c80672c3
-#6 CACHED
-
-#4 [3/3] COPY build/libs/backendProject-0.0.1-SNAPSHOT.jar /app/backendProject-0.0.1-SNAPSHOT.jar
-#4 sha256:02e8e44614078cd02e7d928fbeda86900474fad2a52d466a300d07e23cfbe6d8
-#4 DONE 0.3s
-
-#8 exporting to image
-#8 sha256:4cfdd8bc557c00d64e1bdb61c384af8274bfe8544941f0480507183c30c941a6
-#8 exporting layers
-#8 exporting layers 1.5s done
-#8 exporting manifest sha256:aec938eee726a323b250f902d12f57a32c48a1a49906211e888a5546641e5b24
-#8 exporting manifest sha256:aec938eee726a323b250f902d12f57a32c48a1a49906211e888a5546641e5b24 done
-#8 exporting config sha256:f70a56441806b175a8a095b068669b8c5e3d24b3a32c6dbf0a0d7c1948130df6 done
-#8 naming to docker.io/library/backendproject_backend1:latest done
-#8 unpacking to docker.io/library/backendproject_backend1:latest
-#8 unpacking to docker.io/library/backendproject_backend1:latest 0.3s done
-#8 DONE 1.8s
-Building backend2
-#1 [internal] load build definition from Dockerfile
-#1 sha256:bb92ed2c1048e9000696dddc0647185f6f2613c2c57eea131dfe453646a16504
-#1 transferring dockerfile: 548B done
-#1 DONE 0.0s
-
-#2 [internal] load metadata for docker.io/library/openjdk:17-jdk
-#2 sha256:ca51d00d9530d240e743cd0ab7d53583e2fed8269e748b1001b3fe78fb46ffcf
-#2 DONE 0.3s
-
-#3 [internal] load .dockerignore
-#3 sha256:6efe6456bfa219f2a66f7f104c8be183a19c3ca7a87c028eef7b03b9a3bd89f7
-#3 transferring context: 2B done
-#3 DONE 0.0s
-
-#5 [internal] load build context
-#5 sha256:b69e1fb0b5fc0d6ce38ca78c03f47a436a55a9ff6d8d4fbac46111ef0d2e5d57
-#5 transferring context: 123B 0.0s done
-#5 DONE 0.0s
-
-#7 [1/3] FROM docker.io/library/openjdk:17-jdk@sha256:528707081fdb9562eb819128a9f85ae7fe000e2fbaeaf9f87662e7b3f38cb7d8
-#7 sha256:f73aed2f80bd0e561c39fdfc2e68670e1949d1bfa96639f3c70771849d802a7e
-#7 resolve docker.io/library/openjdk:17-jdk@sha256:528707081fdb9562eb819128a9f85ae7fe000e2fbaeaf9f87662e7b3f38cb7d8 0.0s done
-#7 DONE 0.0s
-
-#6 [2/3] WORKDIR /app
-#6 sha256:ebfac0acd0d242235faaf3af5c14ddf7d85661355fc853ee47f047b0c80672c3
-#6 CACHED
-
-#4 [3/3] COPY build/libs/backendProject-0.0.1-SNAPSHOT.jar /app/backendProject-0.0.1-SNAPSHOT.jar
-#4 sha256:089f8f4e21da21834126ecfb24ce42c794351bf0c99bd860575d929c26243cd3
-#4 CACHED
-
-#8 exporting to image
-#8 sha256:f15480684382f7224b7e0c747b8486239a931d2bb8620c7d89e33fee101365cc
-#8 exporting layers done
-#8 exporting manifest sha256:aec938eee726a323b250f902d12f57a32c48a1a49906211e888a5546641e5b24 done
-#8 exporting config sha256:f70a56441806b175a8a095b068669b8c5e3d24b3a32c6dbf0a0d7c1948130df6 done
-#8 naming to docker.io/library/backendproject_backend2:latest done
-#8 unpacking to docker.io/library/backendproject_backend2:latest done
-#8 DONE 0.0s
-Building backend3
-#1 [internal] load build definition from Dockerfile
-#1 sha256:096b2286c02127fdd3e4fa44504b64c34af938f547736598ec3192ba22fa53ac
-#1 transferring dockerfile: 548B done
-#1 DONE 0.0s
-
-#2 [internal] load metadata for docker.io/library/openjdk:17-jdk
-#2 sha256:ca51d00d9530d240e743cd0ab7d53583e2fed8269e748b1001b3fe78fb46ffcf
-#2 DONE 0.3s
-
-#3 [internal] load .dockerignore
-#3 sha256:ce4073fe6b56a31d745256ca73aed4e82f3ef93a0c9da6687ef3176477122d16
-#3 transferring context: 2B 0.0s done
-#3 DONE 0.0s
-
-#7 [1/3] FROM docker.io/library/openjdk:17-jdk@sha256:528707081fdb9562eb819128a9f85ae7fe000e2fbaeaf9f87662e7b3f38cb7d8
-#7 sha256:f73aed2f80bd0e561c39fdfc2e68670e1949d1bfa96639f3c70771849d802a7e
-#7 resolve docker.io/library/openjdk:17-jdk@sha256:528707081fdb9562eb819128a9f85ae7fe000e2fbaeaf9f87662e7b3f38cb7d8 0.0s done
-#7 DONE 0.0s
-
-#5 [internal] load build context
-#5 sha256:b10fbf8a46c7efc39aa46606c130c3b4ff2b30afa3057a4cfff553a50dc1d73e
-#5 transferring context: 123B 0.0s done
-#5 DONE 0.0s
-
-#6 [2/3] WORKDIR /app
-#6 sha256:ebfac0acd0d242235faaf3af5c14ddf7d85661355fc853ee47f047b0c80672c3
-#6 CACHED
-
-#4 [3/3] COPY build/libs/backendProject-0.0.1-SNAPSHOT.jar /app/backendProject-0.0.1-SNAPSHOT.jar
-#4 sha256:8a89fbcf736b90911f4a15bd2c6c496d594100f2762586bea658288db0c2079d
-#4 CACHED
-
-#8 exporting to image
-#8 sha256:74dec77f92a0345906d664818b9dcc45503b4c9fca091425b344795ad80e4f47
-#8 exporting layers done
-#8 exporting manifest sha256:aec938eee726a323b250f902d12f57a32c48a1a49906211e888a5546641e5b24 done
-#8 exporting config sha256:f70a56441806b175a8a095b068669b8c5e3d24b3a32c6dbf0a0d7c1948130df6 done
-#8 naming to docker.io/library/backendproject_backend3:latest done
-#8 unpacking to docker.io/library/backendproject_backend3:latest done
-#8 DONE 0.0s
-Building nginx
-#1 [internal] load build definition from Dockerfile
-#1 sha256:92b26c3f1e7cb7c8c30bc09598bd9ed79bceb1892829c1d8dee7e4f2b3b956d7
-#1 transferring dockerfile: 125B done
-#1 DONE 0.0s
-
-#2 [internal] load metadata for docker.io/library/nginx:latest
-#2 sha256:9ad844bdd951526fe21f5db65442779c28ef3778b7341f24b3fff4059e36d00e
-#2 DONE 1.5s
-
-#3 [internal] load .dockerignore
-#3 sha256:019025738ae85a94734dc4e672e968e6e839babc6aa59e1fca4eb8226968944c
-#3 transferring context: 2B done
-#3 DONE 0.0s
-
-#5 [internal] load build context
-#5 sha256:831396f2d9562ffb0e571bef7a530839cf83bfbe9becdacab409aff3ea712e4d
-#5 transferring context: 1.36kB done
-#5 DONE 0.0s
-
-#7 [1/3] FROM docker.io/library/nginx:latest@sha256:6784fb0834aa7dbbe12e3d7471e69c290df3e6ba810dc38b34ae33d3c1c05f7d
-#7 sha256:482ba73b64b19c4bf20fa66e28c2577dbcd53fe52256d24e3a697d1aa76954bd
-#7 resolve docker.io/library/nginx:latest@sha256:6784fb0834aa7dbbe12e3d7471e69c290df3e6ba810dc38b34ae33d3c1c05f7d 0.0s done
-#7 DONE 0.0s
-
-#6 [2/3] RUN rm /etc/nginx/nginx.conf
-#6 sha256:9c879ad27476516614a40e6ef287e7c49a02816335adbec8c8fdcc7f00800d1c
-#6 CACHED
-
-#4 [3/3] COPY ./nginx.conf /etc/nginx/nginx.conf
-#4 sha256:00aed1b1861f9ddc59051792d1d43bae67e78a72f1adda925d83a7697b2d45fc
-#4 CACHED
-
-#8 exporting to image
-#8 sha256:364068286bd552ae38e531346b46315549c0980d543330d34f9efde9c48cff67
-#8 exporting layers done
-#8 exporting manifest sha256:560b7ea89d0ca8137bc636943b39b8ccc3e802cedfd164deec7f934981e2a87f done
-#8 exporting config sha256:c9c55924873e282cbd9a26cacc22b8ba2367580fff0da693e965bcf34cdc3edc done
-#8 naming to docker.io/library/backendproject_nginx:latest done
-#8 unpacking to docker.io/library/backendproject_nginx:latest done
-#8 DONE 0.0s
-Creating backend2 ... 
-Creating backend3 ... 
-Creating backend1 ... 
-Creating backend2 ... done
-Creating backend3 ... done
-Creating backend1 ... done
-Creating nginx    ... 
-Creating nginx    ... done
-[8mha:////4BNMbUBfVX01I5Qr+jAqGHBg1oQgFAtGPvG6r8j3hxQgAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AFSjtgYvgAAAA==[0m[Pipeline] }
-[8mha:////4MrAI6WZMIxmrGSO5o0nyaiebO9oN4BLBQ0BRzYHXepqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQYJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw9qzEvpvgAAAA==[0m[Pipeline] // dir
-[8mha:////4NtV655RWTz6pW9kGtGDubmvpVa2QzOFvWfXlbv6RHF+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRSEGBqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZ17n2hw9eAqiyvgAAAA==[0m[Pipeline] }
-[8mha:////4IXGg7w2xuNCkwP2XDpmrIf5+gyXwNc9EMMlXipKpto7AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAaJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw9wAqrYvgAAAA==[0m[Pipeline] // stage
-[8mha:////4PyIxL83GHzXNP7p4RckmsTx/OYjHVhmx3x81zMslNDTAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTIGgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxWb7OZZv7d0UzsEAAAA=[0m[Pipeline] stage
-[8mha:////4M6WAHTjoe8T0VqbAYT3c2GpBnZ3GBJsfDFoggsvPfAOAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] { (Restart Nginx)
-[8mha:////4PABvTc61v42sYDsdGBaYg2cZqF9YVXukmJSxMogdkBwAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAF9GxrMvgAAAA==[0m[Pipeline] sh
-+ docker restart nginx
-nginx
-[8mha:////4CWZ7fbwT+L/XMNIqriEIEkBVpl7t6tMaIcEHW2TTicqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g1K83O2vgAAAA==[0m[Pipeline] }
-[8mha:////4Pe2Pbogsub7mU/bMlP19qs9eEknXr87CBYKooItinvkAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIAqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFVcSbkvgAAAA==[0m[Pipeline] // stage
-[8mha:////4O48yrS6hKfrRgNNps9g1OdiKMTD7i377prTdo5eCAsDAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKhQDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPGtuGbL0AAAA=[0m[Pipeline] }
-[8mha:////4KjsJ8eZGgXEeXXrcR9EuUW0fZPX2u1Gp1zOGh7LYGnAAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRElSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPEKPvyL0AAAA=[0m[Pipeline] // withEnv
-[8mha:////4GoQPHhTTRP2ri5/BnJz3FWN4tOiZ9o98t7ZZnNcvZYGAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6Ikhs04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAVulI+L0AAAA=[0m[Pipeline] }
-[8mha:////4KsgV4RvXGFWuETIkA1YcXQBGDB15HSNnRrP9j2+Z91bAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU2DlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyfSnIyg9FVUxbvQAAAA==[0m[Pipeline] // node
-[8mha:////4Ci3knBGmvYqGfrVuxljo2OxXi3he93XIqaozdfCMZDHAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6Ikhs04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8Aw7lrnr0AAAA=[0m[Pipeline] End of Pipeline
-Finished: SUCCESS
+BUILD FAILED in 28s
+2 actionable tasks: 1 executed, 1 up-to-date
+[8mha:////4H+sCppENxb1w+EfGZvcwHcFkQZKCqCmYaVSEPPp1W23AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIR6RCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPoukFhO+AAAA[0m[Pipeline] }
+[8mha:////4NaSneCr0Z5AZ0dDw0hwdf8o9wRdBHc9OAEllW0nubvKAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+4R02vvgAAAA==[0m[Pipeline] // dir
+[8mha:////4LUoflxFBn/QwI3utMhHyB3nF76YIDEHzv1fQ6kNv/8aAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAkWr3Ir4AAAA=[0m[Pipeline] }
+[8mha:////4Bfhx9NuPM7XHQ4BFXWxZE2UsVjUKmIoGna/DwahE9/pAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+iiayevgAAAA==[0m[Pipeline] // stage
+[8mha:////4NBbyLhpZYyfescpPATynbqK1DCK7iBpsUs+KSD0h4LEAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjUaRBVLSWG15gEmOcWHfBvpBUvIiv8QcMkajYamel1TxfUKYIB4pOdhZ7j6nxcgijy01OFPtLoEl2dJYNYaJgpbaTptYeF9TEFpaIAlYK1habQMmjY9ioztxNFQy66sQxb3sFhW9v8AChsplN5C/MEbbXsU2EP89fAcwDg6gZil39OZZv96T37sEAAAA=[0m[Pipeline] stage
+[8mha:////4LzPaB9U5XSJ65aJbi4W3dV9et0fL26Nful5s5R2ups8AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (Compose Up)
+Stage "Compose Up" skipped due to earlier failure(s)
+[8mha:////4HMzFcru1sUcQPlawRJjcVEJ9EV8BwvvidTuIMdICSQkAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] getContext
+[8mha:////4HAZG8ASorxRm4WZd4hAsKdMlEW5C/spU0igYmO9QTIWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGMKkS1vgAAAA==[0m[Pipeline] }
+[8mha:////4OkEYCvXlWSb5VgLAalaRaObKG0wOhT1j06rng0gQsidAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9mQDtDvgAAAA==[0m[Pipeline] // stage
+[8mha:////4LYa0WGSSY3v0+CkZytqMGXGHlqZR4fQBxCUZMEnctE1AAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjhESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKLabz7F8A/ufhVXBAAAA[0m[Pipeline] stage
+[8mha:////4EcwUfQkHkhchqoNaS45ILVx6mhwP+HQ0WXSrbS0OBmvAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] { (Restart Nginx)
+Stage "Restart Nginx" skipped due to earlier failure(s)
+[8mha:////4L45x12UodW4qJGAO1V955MSjoFbenajs6Pp5CwDo5WHAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3favo5XL4AAAA=[0m[Pipeline] getContext
+[8mha:////4H2ZaEXsvKIu0ulklaBRh4VpugEB9HKoucoFsdkXOGhiAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bij33Ma+AAAA[0m[Pipeline] }
+[8mha:////4M3gVu/7l/RzVYE2L8r+Zcml7osngsx1V2hmokFN17ljAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbNzd1iZS+AAAA[0m[Pipeline] // stage
+[8mha:////4N48QpDAQhLuqv3yyQlY1/jS28gPIE2uQ9m5Gff1nfe7AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IMJizGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8F+b4UZOUHAh7D/r0AAAA=[0m[Pipeline] }
+[8mha:////4MBNdsQZwyb6o+iX0Spz+IuvJp0508PoHVH8wUs0ui2FAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpEKJAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AAhmqlq9AAAA[0m[Pipeline] // withEnv
+[8mha:////4G4SpnaTvHnwy4LRrSdSAaXrUe6R03sb6hsCh5rfbU4/AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpoEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AE/B/a+9AAAA[0m[Pipeline] }
+[8mha:////4HwolX/kV94KvqmgY+vcF5aMCdoHHRtZWynJ+6l7NpQRAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUVI5jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAXH35DL0AAAA=[0m[Pipeline] // node
+[8mha:////4PgYfCR/GQD/HM8MvOSRtSdPDyG0dJaNjPddt/fmAffhAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBiA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77eCbPcBAx/ra70AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

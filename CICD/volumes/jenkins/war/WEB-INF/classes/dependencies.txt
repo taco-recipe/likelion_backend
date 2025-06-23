@@ -44,7 +44,7 @@ The following files have been resolved:
    org.jenkins-ci:crypto-util:jar:1.10:compile -- module crypto.util (auto)
    org.jenkins-ci:memory-monitor:jar:1.13:compile -- module memory.monitor (auto)
    org.jenkins-ci:symbol-annotation:jar:1.25:compile -- module symbol.annotation (auto)
-   org.jenkins-ci:ta***REMOVED***reactor:jar:1.9:compile -- module task.reactor (auto)
+   org.jenkins-ci:task-reactor:jar:1.9:compile -- module task.reactor (auto)
    org.jenkins-ci:version-number:jar:1.12:compile -- module version.number (auto)
    org.jenkins-ci.main:websocket-spi:jar:2.504.2:compile -- module websocket.spi (auto)
    org.jfree:jfreechart:jar:1.0.19:compile -- module jfreechart (auto)

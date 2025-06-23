@@ -84,7 +84,7 @@
   --panel-header-bg-color: var(--dark-theme-bg-black);
   --panel-border-color: rgb(50, 50, 55);
   --panel-border-color--hover: var(--dark-theme-bg-black);
-  --ta***REMOVED***link-bg-color--hover: var(--dark-theme-bg-medium-grey);
+  --task-link-bg-color--hover: var(--dark-theme-bg-medium-grey);
   /* Form */
   --input-color: hsl(240, 6%, 20%);
   --input-border: hsl(240, 6%, 40%);
@@ -396,7 +396,7 @@
     --panel-header-bg-color: var(--dark-theme-bg-black);
     --panel-border-color: rgb(50, 50, 55);
     --panel-border-color--hover: var(--dark-theme-bg-black);
-    --ta***REMOVED***link-bg-color--hover: var(--dark-theme-bg-medium-grey);
+    --task-link-bg-color--hover: var(--dark-theme-bg-medium-grey);
     /* Form */
     --input-color: hsl(240, 6%, 20%);
     --input-border: hsl(240, 6%, 40%);

@@ -12,16 +12,16 @@
       </causeBag>
     </hudson.model.CauseAction>
     <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.32-476.v5042e1c1edd7">
-      <queuingDurationMillis>42</queuingDurationMillis>
+      <queuingDurationMillis>27</queuingDurationMillis>
       <blockedDurationMillis>0</blockedDurationMillis>
       <buildableDurationMillis>0</buildableDurationMillis>
-      <waitingDurationMillis>10</waitingDurationMillis>
+      <waitingDurationMillis>6</waitingDurationMillis>
     </jenkins.metrics.impl.TimeInQueueAction>
     <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@752.vdddedf804e72">
       <libraries/>
     </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
     <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@2.2255.v56a_15e805f12">
-      <stagesUUID>77f68ebd-50a2-48cb-bca9-de6b29e589e6</stagesUUID>
+      <stagesUUID>7e2b0b4f-66e3-4aac-a358-29d812d471cd</stagesUUID>
       <pipelineDefs>
         <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef plugin="pipeline-model-api@2.2255.v56a_15e805f12">
           <stages>
@@ -172,7 +172,7 @@
                 </branches>
               </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
             </stages>
-            <uuid>77f68ebd-50a2-48cb-bca9-de6b29e589e6</uuid>
+            <uuid>7e2b0b4f-66e3-4aac-a358-29d812d471cd</uuid>
           </stages>
           <environment>
             <variables class="linked-hash-map">
@@ -181,7 +181,7 @@
                   <key>PROJECT_DIR</key>
                 </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
                 <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
-                  <value class="string">/var/jenkins_home/workspace/backend5/backendProject</value>
+                  <value class="string">/var/jenkins_home/workspace/backendProject</value>
                 </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
               </entry>
               <entry>
@@ -206,28 +206,28 @@
       <env class="tree-map"/>
     </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
     <jenkins.metrics.impl.SubTaskTimeInQueueAction plugin="metrics@4.2.32-476.v5042e1c1edd7">
-      <queuingDurationMillis>17</queuingDurationMillis>
+      <queuingDurationMillis>25</queuingDurationMillis>
       <blockedDurationMillis>0</blockedDurationMillis>
-      <buildableDurationMillis>14</buildableDurationMillis>
+      <buildableDurationMillis>21</buildableDurationMillis>
       <waitingDurationMillis>0</waitingDurationMillis>
-      <executingDurationMillis>71793</executingDurationMillis>
+      <executingDurationMillis>32568</executingDurationMillis>
       <workUnitCount>1</workUnitCount>
     </jenkins.metrics.impl.SubTaskTimeInQueueAction>
   </actions>
   <queueId>1</queueId>
-  <timestamp>1750642144454</timestamp>
-  <startTime>1750642144480</startTime>
-  <result>SUCCESS</result>
-  <duration>74484</duration>
+  <timestamp>1750693741156</timestamp>
+  <startTime>1750693741169</startTime>
+  <result>FAILURE</result>
+  <duration>34200</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
   <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
-    <result>SUCCESS</result>
+    <result>FAILURE</result>
     <script>pipeline {
     agent any
 
     environment {
-        PROJECT_DIR = &apos;/var/jenkins_home/workspace/backend5/backendProject&apos;   // 백앤드 서버 프로젝트 폴더
+        PROJECT_DIR = &apos;/var/jenkins_home/workspace/backendProject&apos;   // 백앤드 서버 프로젝트 폴더
         COMPOSE_FILE = &apos;docker-compose.backend.yml&apos;
     }
 
@@ -273,33 +273,35 @@
     <timings class="map">
       <entry>
         <string>flowNode</string>
-        <long>641492712</long>
+        <long>255377911</long>
       </entry>
       <entry>
         <string>classLoad</string>
-        <long>1268661219</long>
+        <long>1327533908</long>
       </entry>
       <entry>
         <string>runQueue</string>
-        <long>11196902544</long>
+        <long>4915064254</long>
       </entry>
       <entry>
         <string>run</string>
-        <long>12198327847</long>
+        <long>5656439165</long>
       </entry>
       <entry>
         <string>parse</string>
-        <long>406547333</long>
+        <long>483590459</long>
       </entry>
       <entry>
         <string>saveProgram</string>
-        <long>9075712632</long>
+        <long>3823492001</long>
       </entry>
     </timings>
-    <internalCalls class="sorted-set"/>
+    <internalCalls class="sorted-set">
+      <string>org.jenkinsci.plugins.pipeline.StageStatus.TAG_NAME</string>
+    </internalCalls>
     <sandbox>true</sandbox>
-    <iota>44</iota>
-    <head>1:44</head>
+    <iota>40</iota>
+    <head>1:40</head>
     <done>true</done>
     <resumeBlocked>false</resumeBlocked>
     <storageDir>workflow-completed</storageDir>

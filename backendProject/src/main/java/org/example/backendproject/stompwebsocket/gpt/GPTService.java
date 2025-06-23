@@ -87,7 +87,7 @@ public class GPTService {
 
         // HTTP 요청 구성
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create("<https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=>" + apiKey))
+                .uri(URI.create("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=" + apiKey))
                 .header("Content-Type", "application/json")
                 .POST(HttpRequest.BodyPublishers.ofString(mapper.writeValueAsString(requestBody)))
                 .build();

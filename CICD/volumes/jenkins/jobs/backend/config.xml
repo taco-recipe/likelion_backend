@@ -36,7 +36,7 @@
           steps {
             dir(&quot;${PROJECT_DIR}&quot;) {
               sh &apos;chmod +x gradlew&apos;
-              sh &apos;./gradlew clean build -x test&apos;
+              sh &apos;./gradlew clean build&apos;
             }
           }
         }

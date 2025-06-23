@@ -25,12 +25,12 @@ window.addEventListener("load", function () {
     const icon = header.querySelector("svg") ? header.querySelector("svg").outerHTML : DEFAULT_ICON;
     const item = createElementFromHtml(`
         <div class="task">
-            <span class="ta***REMOVED***link-wrapper">
-                <button data-section-id=${headerId} class="ta***REMOVED***link">
-                    <span class="ta***REMOVED***icon-link">
+            <span class="task-link-wrapper">
+                <button data-section-id=${headerId} class="task-link">
+                    <span class="task-icon-link">
                         ${icon}
                     </span>
-                    <span class="ta***REMOVED***link-text">
+                    <span class="task-link-text">
                         ${header.textContent}
                     </span>
                 </button>
@@ -38,7 +38,7 @@ window.addEventListener("load", function () {
         </div>
     `);
     item.addEventListener("click", () => {
-      const headerToScrollTo = document.getElementById(item.querySelector(".ta***REMOVED***link").dataset.sectionId);
+      const headerToScrollTo = document.getElementById(item.querySelector(".task-link").dataset.sectionId);
       const sectionTopPosition = headerToScrollTo.getBoundingClientRect().top + window.scrollY - 70;
       window.scrollTo({
         top: i === 0 ? 0 : sectionTopPosition,
@@ -74,10 +74,10 @@ function onScroll() {
       selectedSection = section;
     }
   });
-  document.querySelectorAll(".ta***REMOVED***link--active").forEach(function (selected) {
-    selected.classList.remove("ta***REMOVED***link--active");
+  document.querySelectorAll(".task-link--active").forEach(function (selected) {
+    selected.classList.remove("task-link--active");
   });
-  document.querySelector(".ta***REMOVED***link[data-section-id='" + selectedSection.id + "']").classList.add("ta***REMOVED***link--active");
+  document.querySelector(".task-link[data-section-id='" + selectedSection.id + "']").classList.add("task-link--active");
 }
 /******/ })()
 ;

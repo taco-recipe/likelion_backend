@@ -26,12 +26,12 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins.workflow</groupId>
-  <artifactId>workflow-durable-ta***REMOVED***step</artifactId>
+  <artifactId>workflow-durable-task-step</artifactId>
   <version>1405.v1fcd4a_d00096</version>
   <packaging>hpi</packaging>
   <name>Pipeline: Nodes and Processes</name>
   <description>Pipeline steps locking agents and workspaces, and running external processes that may survive a Jenkins restart or agent reconnection.</description>
-  <url>https://github.com/jenkinsci/workflow-durable-ta***REMOVED***step-plugin</url>
+  <url>https://github.com/jenkinsci/workflow-durable-task-step-plugin</url>
   <inceptionYear>2016</inceptionYear>
   <licenses>
     <license>
@@ -40,10 +40,10 @@
     </license>
   </licenses>
   <scm>
-    <connection>scm:git:https://github.com/jenkinsci/workflow-durable-ta***REMOVED***step-plugin.git</connection>
-    <developerConnection>scm:git:git@github.com:jenkinsci/workflow-durable-ta***REMOVED***step-plugin.git</developerConnection>
+    <connection>scm:git:https://github.com/jenkinsci/workflow-durable-task-step-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:jenkinsci/workflow-durable-task-step-plugin.git</developerConnection>
     <tag>1fcd4ad000969775b606e309f9a72d9ba5e58008</tag>
-    <url>https://github.com/jenkinsci/workflow-durable-ta***REMOVED***step-plugin</url>
+    <url>https://github.com/jenkinsci/workflow-durable-task-step-plugin</url>
   </scm>
   <distributionManagement>
     <repository>

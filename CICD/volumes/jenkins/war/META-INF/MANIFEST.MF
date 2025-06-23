@@ -1763,7 +1763,7 @@ SHA-256-Digest: Zn/o9xfubyNVUyiX32+SmtnLTh2ReG0bRZ8ZxUQkz1I=
 Name: help/system-config/master-slave/description_de.html
 SHA-256-Digest: fV2FiShurNvd1BHLTFn7oE+tX19E58U9boMfXUGmvp8=
 
-Name: ma***REMOVED***icon.svg
+Name: mask-icon.svg
 SHA-256-Digest: 4imlSXRRQ0d2ITlNHD+cTIYLurGBru8p/fIQubKLOjE=
 
 Name: help/parameter/run.html
@@ -1787,7 +1787,7 @@ SHA-256-Digest: nTAZnjDF+gBdZ9jPAO+KFjY4+IaEIbeFuDk4HoZavGI=
 Name: help/system-config/master-slave/usage_fr.html
 SHA-256-Digest: Q6fuQogPwZiDOO6XgRsVSnEkbmswhHtARQn/D4TeTxU=
 
-Name: WEB-INF/lib/ta***REMOVED***reactor-1.9.jar
+Name: WEB-INF/lib/task-reactor-1.9.jar
 SHA-256-Digest: Oihm/B/RO0D4kinys8/J2XoW4VMyair/FnnN/h0sL0Y=
 
 Name: help/system-config/master-slave/clock_ru.html
