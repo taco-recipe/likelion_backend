@@ -6,6 +6,7 @@ import org.example.backendproject.Auth.dto.SignUpRequestDTO;
 import org.example.backendproject.Auth.entity.Auth;
 import org.example.backendproject.Auth.repository.AuthRepository;
 import org.example.backendproject.user.dto.UserDTO;
+import org.example.backendproject.user.dto.UserProfileDTO;
 import org.example.backendproject.user.entity.User;
 import org.example.backendproject.user.entity.UserProfile;
 import org.example.backendproject.user.repository.UserRepository;
@@ -59,10 +60,13 @@ public class AuthService {
         userDTO.setId(user.getId());
         userDTO.setUserid(user.getUserid());
 
-        userDTO.setUsername(user.getUserProfile().getUsername());
-        userDTO.setEmail(user.getUserProfile().getEmail());
-        userDTO.setPhone(user.getUserProfile().getPhone());
-        userDTO.setAddress(user.getUserProfile().getAddress());
+        UserProfileDTO userProfileDTO = new UserProfileDTO();
+        userProfileDTO.setUsername(user.getUserProfile().getUsername());
+        userProfileDTO.setEmail(user.getUserProfile().getEmail());
+        userProfileDTO.setPhone(user.getUserProfile().getPhone());
+        userProfileDTO.setAddress(user.getUserProfile().getAddress());
+
+        userDTO.setProfile(userProfileDTO);
 
         return userDTO;
 
