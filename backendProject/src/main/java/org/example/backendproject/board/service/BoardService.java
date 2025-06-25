@@ -11,6 +11,7 @@ import org.example.backendproject.user.entity.User;
 import org.example.backendproject.user.repository.UserRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -65,9 +66,12 @@ public class BoardService {
 
     /** 게시글 수정 **/
     @Transactional
-    public BoardDTO updateBoard(Long boardId, BoardDTO dto) {
+    public BoardDTO updateBoard(Long boardId, BoardDTO dto, UserDetails userDetails) {
         Board board = boardRepository.findById(boardId)
                 .orElseThrow(() -> new IllegalArgumentException("게시글 없음: " + boardId));
+        if (board.getUser().getId().equals(userDetails.getUsername())){
+            throw new IllegalArgumentException("해당 게시글에 대한 수정 권한이 없습니다.");
+        }
         board.setTitle(dto.getTitle());
         board.setContent(dto.getContent());
         boardRepository.save(board);
@@ -77,9 +81,12 @@ public class BoardService {
 
     /** 게시글 삭제 **/
     @Transactional
-    public void deleteBoard(Long boardId) {
-        if (!boardRepository.existsById(boardId))
-            throw new IllegalArgumentException("게시글 없음: " + boardId);
+    public void deleteBoard(Long boardId, UserDetails userDetails) {
+        Board board = boardRepository.findById(boardId)
+                .orElseThrow(() -> new IllegalArgumentException("게시글 없음: " + boardId));
+        if (board.getUser().getId().equals(userDetails.getUsername())){
+            throw new IllegalArgumentException("해당 게시글에 대한 수정 권한이 없습니다.");
+        }
         boardRepository.deleteById(boardId);
     }
 

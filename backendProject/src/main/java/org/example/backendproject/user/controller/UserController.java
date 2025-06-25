@@ -2,10 +2,12 @@ package org.example.backendproject.user.controller;
 
 
 import lombok.RequiredArgsConstructor;
+import org.example.backendproject.security.core.CustomUserDetails;
 import org.example.backendproject.user.dto.UserDTO;
 import org.example.backendproject.user.service.UserService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -25,15 +27,15 @@ public class UserController {
     private final UserService userService;
 
     /* 내 정보 보기 */
-    @GetMapping("/me/{id}")
-    public ResponseEntity<UserDTO> getMyInfo(@PathVariable("id") Long userId) {
-        return ResponseEntity.ok(userService.getMyInfo(userId));
+    @GetMapping("/me")
+    public ResponseEntity<UserDTO> getMyInfo(@AuthenticationPrincipal CustomUserDetails userDetails) {
+        return ResponseEntity.ok(userService.getMyInfo(userDetails.getId()));
     }
 
     /* 유저 정보 수정 */
-    @PutMapping("/me/{id}")
-    public ResponseEntity<UserDTO> updateUser(@PathVariable("id") Long userId, @RequestBody UserDTO dto) {
-        UserDTO updated = userService.updateUser(userId, dto);
+    @PutMapping("/me")
+    public ResponseEntity<UserDTO> updateUser(@AuthenticationPrincipal CustomUserDetails userDetails, @RequestBody UserDTO dto) {
+        UserDTO updated = userService.updateUser(userDetails.getId(), dto);
         return ResponseEntity.ok(updated);
     }
 }

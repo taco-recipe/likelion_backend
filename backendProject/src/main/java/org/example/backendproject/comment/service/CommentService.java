@@ -8,6 +8,7 @@ import org.example.backendproject.comment.entity.Comment;
 import org.example.backendproject.comment.repository.CommentRepository;
 import org.example.backendproject.user.entity.User;
 import org.example.backendproject.user.repository.UserRepository;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -70,7 +71,13 @@ public class CommentService {
     }
 
     @Transactional
-    public void deleteComment(Long id){
+    public void deleteComment(Long id, UserDetails userDetails) {
+
+        Comment comment = commentRepository.findById(id)
+                .orElseThrow(() -> new IllegalArgumentException("댓글 없음: " + id));
+        if (comment.getUserId().equals(userDetails.getUsername())){
+            throw new IllegalArgumentException("해당 게시글에 대한 수정 권한이 없습니다.");
+        }
         commentRepository.deleteById(id);
     }
 

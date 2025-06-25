@@ -6,6 +6,7 @@ import lombok.RequiredArgsConstructor;
 import org.example.backendproject.comment.dto.CommentDTO;
 import org.example.backendproject.comment.service.CommentService;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -33,8 +34,8 @@ public class CommentController {
 
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteComment(@PathVariable Long id) {
-        commentService.deleteComment(id); // id로 댓글 삭제
+    public ResponseEntity<Void> deleteComment(@PathVariable Long id, UserDetails userDetails) {
+        commentService.deleteComment(id,userDetails); // id로 댓글 삭제
         return ResponseEntity.ok().build();
     }
 

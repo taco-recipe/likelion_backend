@@ -78,7 +78,7 @@
         </div>
     </div>
 </div>
-
+<script src="fetchWithAuth.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/stompjs@2.3.3/lib/stomp.min.js"></script>
 <script>
     let stompClient = null;
@@ -91,7 +91,12 @@
 
     function loadRoomList() {
 
-        fetch("/api/rooms")
+        fetchWithAuth("/api/rooms", {
+            credentials: "include",
+            headers: (localStorage.getItem("accessToken"))
+                ? { "Authorization": "Bearer " + localStorage.getItem("accessToken") }
+                : {}
+        })
             .then(response => response.json())
             .then(data => {
                 const roomsDiv = document.getElementById("rooms");
@@ -129,13 +134,25 @@
 
         //방생성기능
         //방생성기능
-      fetch(`/api/rooms/${roomId}`, { method: "POST" })
+        fetchWithAuth(`/api/rooms/${roomId}`, {
+            method: "POST",
+            credentials: "include",  // 쿠키/세션 포함
+            headers: Object.assign(
+                { "Content-Type": "application/json" },
+                (localStorage.getItem("accessToken"))
+                    ? { "Authorization": "Bearer " + localStorage.getItem("accessToken") }
+                    : {}
+            )
+        })
 
-      //  const socket = new WebSocket('/ws-chat');
+        //  const socket = new WebSocket('/ws-chat');
         const socket = new WebSocket('/ws-chat?nickname=' + nickname);
         stompClient = Stomp.over(socket);
 
         stompClient.connect({}, function (frame) {
+            // 채팅방 입장할 때 채팅창을 초기화
+            document.getElementById("chatArea").innerHTML = "";
+
             showSysMsg(`[${nickname}]님이 방 [${roomId}]에 입장했습니다.`);
             document.getElementById("chatWrapper").classList.remove("hidden");
             document.getElementById("enterRow").classList.add("hidden");

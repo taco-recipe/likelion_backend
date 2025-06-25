@@ -7,9 +7,11 @@ import org.example.backendproject.board.dto.BoardDTO;
 import org.example.backendproject.board.entity.Board;
 import org.example.backendproject.board.service.BoardService;
 
+import org.example.backendproject.security.core.CustomUserDetails;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -24,8 +26,11 @@ public class BoardController {
 
     /** 글 작성 **/
     @PostMapping
-    public ResponseEntity<BoardDTO> createBoard(@RequestBody BoardDTO boardDTO) throws JsonProcessingException {
-        System.out.println("boardDTO 값 "+new ObjectMapper().writeValueAsString(boardDTO));
+    public ResponseEntity<BoardDTO> createBoard(@RequestBody BoardDTO boardDTO,
+                                                @AuthenticationPrincipal CustomUserDetails userDetails)
+            throws JsonProcessingException {
+        boardDTO.setUser_id(userDetails.getId());
+        System.out.println("boardDTO 값: " + new ObjectMapper().writeValueAsString(boardDTO));
         BoardDTO created = boardService.createBoard(boardDTO);
         return ResponseEntity.status(HttpStatus.CREATED).body(created);
     }
@@ -38,14 +43,16 @@ public class BoardController {
 
     /** 게시글 수정 **/
     @PutMapping("/{id}")
-    public ResponseEntity<BoardDTO> updateBoard(@PathVariable Long id, @RequestBody BoardDTO boardDTO) {
-        return ResponseEntity.ok(boardService.updateBoard(id, boardDTO));
+    public ResponseEntity<BoardDTO> updateBoard(@PathVariable Long id,
+                                                @RequestBody BoardDTO boardDTO,
+                                                @AuthenticationPrincipal CustomUserDetails userDetails) {
+        return ResponseEntity.ok(boardService.updateBoard(id, boardDTO,userDetails));
     }
 
     /** 게시글 삭제 **/
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteBoard(@PathVariable Long id) {
-        boardService.deleteBoard(id);
+    public ResponseEntity<Void> deleteBoard(@PathVariable Long id,@AuthenticationPrincipal CustomUserDetails userDetails) {
+        boardService.deleteBoard(id,userDetails);
         return ResponseEntity.noContent().build();
     }
 
