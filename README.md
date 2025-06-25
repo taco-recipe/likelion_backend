@@ -16,7 +16,6 @@
 - Dockerfile로 Spring Boot 앱 빌드 및 실행
 - Docker Compose로 Nginx + Spring 연동
 - 로드밸런싱 구성 및 Compose 네트워크 명시 이유
-- 📎 [Notion 정리 보기](https://www.notion.so/Day1-Container-Docker)
 
 ---
 
@@ -27,7 +26,6 @@
 - 채팅방 구분 및 세션 매핑 방식 설계
 - JPA를 통한 Room Entity 저장 및 조회 API 구성
 - STOMP 프로토콜 개요와 도입 흐름
-- 📎 [Notion 정리 보기](https://www.notion.so/Day2-WebSocket)
 
 ---
 
@@ -38,7 +36,6 @@
   - `RedisSubscriber` → Redis 메시지 수신 후 STOMP 브로드캐스트
 - 귓속말 기능 구현: `/user/queue/private` 방식
 - Redis 채널명과 STOMP 경로 구분 이유 정리
-- 📎 [Notion 정리 보기](https://www.notion.so/Day3-Redis-STOMP)
 
 ---
 
@@ -49,7 +46,6 @@
 - `GPTService` 클래스 구현 (OpenAI API 호출 및 응답 추출)
 - GPT 전용 WebSocket 엔드포인트 추가 `/ws-gpt`
 - 사용자 메시지 전송 → GPT 응답 → 브라우저 전달 흐름 구성
-- 📎 [Notion 정리 보기](https://www.notion.so/Day4-GPT-Chatbot)
 
 ---
 
@@ -64,6 +60,19 @@
 - 회원가입 & 로그인 API 개발
   - DTO/Entity 연관관계 설정
   - `User` ↔ `UserProfile` 양방향 매핑
-- 📎 [Notion 정리 보기](https://www.notion.so/Day5-Jenkins-CICD)
 
 ---
+
+### 📅 6일차 - JPA
+- 개인정보 변경 API (UserService.updateUser)
+- 게시글 API
+  - 등록 / 수정 / 삭제 / 조회
+  - 유저 연관관계 (@ManyToOne)
+  - 댓글 연관관계 (@OneToMany)
+- 댓글 API
+  - 등록 / 수정 / 삭제 / 조회
+- 페이징 처리 (PageRequest, Page<BoardDTO>)
+- 게시글 검색 기능 (@Query, 키워드 기반)
+- 배치 저장
+  - JPA persist + flush + clear
+  - JDBC batchUpdate + UUID batchKey
