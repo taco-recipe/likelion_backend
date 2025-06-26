@@ -50,6 +50,12 @@ public class BoardService {
         board.setContent(boardDTO.getContent());
         // 연관관계 매핑!
         board.setUser(user);
+
+        System.out.println(boardDTO.getCreated_date());
+        board.setCreated_date(boardDTO.getCreated_date());
+        System.out.println(board.getCreated_date());
+        board.setUpdated_date(boardDTO.getUpdated_date());
+
         Board saved = boardRepository.save(board);
 
         return toDTO(saved);
@@ -143,7 +149,7 @@ public class BoardService {
 
     /** 배치작업 **/
     @Transactional
-    public void batchSaveBoard(List<BoardDTO> boardDTOList) {
+    public void batchSaveBoard(List<BoardDTO> boardDTOList,UserDetails userDetails) {
         Long start = System.currentTimeMillis();
 
         int batchsize = 1000; //한번에 처리할 배치 크기

@@ -49,6 +49,7 @@
         if (parts.length === 2) return parts.pop().split(';').shift();
     }
     const accessToken = getCookie("accessToken");
+    // debugger;
 
     const params = new URLSearchParams(window.location.search);
     const id = params.get('id');

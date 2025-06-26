@@ -63,7 +63,7 @@
 
 ---
 
-### 📅 6일차 - JPA
+### 📅 7일차 - JPA
 - 개인정보 변경 API (UserService.updateUser)
 - 게시글 API
   - 등록 / 수정 / 삭제 / 조회
@@ -76,3 +76,14 @@
 - 배치 저장
   - JPA persist + flush + clear
   - JDBC batchUpdate + UUID batchKey
+
+---
+
+### 📅 8일차 - OAuth / Prometheus & Grafana 툴 추가
+- 기존 오류 해결
+  - Postman 테스트중 json 매핑 과정중 jackson 관련 오류 해결
+- 소셜 로그인(OAuth) 구현
+  - 구글 및 카카오 소셜 로그인 구현 및 연결
+  - 로그아웃 구현
+  - accessToken 및 refreshToken 관리 고려
+- Prometheus & Grafana 툴 추가 

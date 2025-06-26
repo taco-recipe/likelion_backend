@@ -18,10 +18,12 @@ public class Auth {
     private String tokenType;
 
     @Column(nullable = false)
-    private String refreshToken;
+    private String accessToken;
 
     @Column(nullable = false)
-    private String accessToken;
+    private String refreshToken;
+
+
 
 
     //테이블과 테이블을 연결      (1대1 관계에서는 연관관계 주인쪽만 패치 전략이 적용됨)
@@ -29,7 +31,7 @@ public class Auth {
     @JoinColumn(name = "user_id") //auth.getUser()에 실제로 접근할 때 User 쿼리 발생!
     private User user;
 
-    public Auth( User user, String accessToken,String refreshToken,String tokenType) {
+    public Auth( User user,String tokenType, String accessToken ,String refreshToken) {
         this.user = user;
         this.refreshToken = refreshToken;
         this.accessToken = accessToken;

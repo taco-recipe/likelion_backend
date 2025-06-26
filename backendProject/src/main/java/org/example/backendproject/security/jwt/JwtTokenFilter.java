@@ -3,6 +3,7 @@ package org.example.backendproject.security.jwt;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
+import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
@@ -34,7 +35,15 @@ public class JwtTokenFilter extends OncePerRequestFilter {
                                     FilterChain filterChain
     ) throws ServletException, IOException {
 
-        String accessToken = getTokenFromRequest(request); //요청 헤더에서 토큰 추출
+        String accessToken = null;
+        if (getTokenFromRequest(request) == null) {
+            accessToken = getTokenFromCookie(request);
+        }
+        else{
+            accessToken = getTokenFromRequest(request); //요청 헤더에서 토큰 추출
+        }
+
+
 
         if (accessToken != null && jwtTokenProvider.validateToken(accessToken)) {
             UsernamePasswordAuthenticationToken authenticationToken =getAuthentication(accessToken);
@@ -59,6 +68,19 @@ public class JwtTokenFilter extends OncePerRequestFilter {
 
          * **/
         filterChain.doFilter(request,response); // JwtTokenFilter를 거치고 다음 필터로 넘어감
+    }
+
+    private String getTokenFromCookie(HttpServletRequest request) {
+        Cookie[] cookies = request.getCookies();
+        if (cookies != null) {
+            for (Cookie cookie : cookies) {
+                if ("accessToken".equals(cookie.getName())) {
+                    return cookie.getValue();
+                }
+            }
+        }
+        return null;
+
     }
 
     //HTTP 요청 헤더에서 토큰을 추출하는 메서드

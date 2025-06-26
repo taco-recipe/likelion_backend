@@ -126,7 +126,7 @@ public class AuthService {
             return new LoginReponseDTO(auth);
         }
         // 위에 DB에 사용자 정보가 없으면 새로 생성해서 로그인 처리
-        Auth auth = new Auth(user,refreshToken,accessToken,"Bearer");
+        Auth auth = new Auth(user,"Bearer ",accessToken,refreshToken);
         authRepository.save(auth);
         return new LoginReponseDTO(auth);
 

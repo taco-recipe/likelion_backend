@@ -26,9 +26,9 @@ public class BoardController {
 
     /** 글 작성 **/
     @PostMapping
-    public ResponseEntity<BoardDTO> createBoard(@RequestBody BoardDTO boardDTO,
-                                                @AuthenticationPrincipal CustomUserDetails userDetails)
-            throws JsonProcessingException {
+    public ResponseEntity<BoardDTO> createBoard(@AuthenticationPrincipal CustomUserDetails userDetails,
+                                                @RequestBody BoardDTO boardDTO) throws JsonProcessingException
+            {
         boardDTO.setUser_id(userDetails.getId());
         System.out.println("boardDTO 값: " + new ObjectMapper().writeValueAsString(boardDTO));
         BoardDTO created = boardService.createBoard(boardDTO);
@@ -107,8 +107,8 @@ public class BoardController {
 
     /** 게시판 글 쓰기 배치 작업 **/
     @PostMapping("/batchInsert")
-    public String batchInsert(@RequestBody List<BoardDTO> boardDTOList) {
-        boardService.batchSaveBoard(boardDTOList);
+    public String batchInsert(@RequestBody List<BoardDTO> boardDTOList,@AuthenticationPrincipal CustomUserDetails userDetails) {
+        boardService.batchSaveBoard(boardDTOList, userDetails);
         return "ok";
     }
 
