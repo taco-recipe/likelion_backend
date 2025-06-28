@@ -46,7 +46,7 @@ public class AuthController {
 //
 //            UserDTO loginUser = authService.login(loginRequestDTO);
 //
-//            System.out.println("로그인 성공 = "+new ObjectMapper().writeValueAsString(loginUser));
+//            log.info("로그인 성공 = "+new ObjectMapper().writeValueAsString(loginUser));
 //
 //            return ResponseEntity.ok(loginUser);
 //        }

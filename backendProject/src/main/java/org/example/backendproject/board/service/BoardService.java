@@ -35,6 +35,9 @@ public class BoardService {
     @Transactional
     public BoardDTO createBoard(BoardDTO boardDTO) {
 
+        long start = System.currentTimeMillis();
+        log.info("글작성 메서드 시작");
+
         // userId(PK)를 이용해서 User 조회
         if (boardDTO.getUser_id() == null)
             throw new IllegalArgumentException("userId(PK)가 필요합니다!");
@@ -51,12 +54,15 @@ public class BoardService {
         // 연관관계 매핑!
         board.setUser(user);
 
-        System.out.println(boardDTO.getCreated_date());
+        log.info(String.valueOf(boardDTO.getCreated_date()));
         board.setCreated_date(boardDTO.getCreated_date());
-        System.out.println(board.getCreated_date());
+        log.info(String.valueOf(board.getCreated_date()));
         board.setUpdated_date(boardDTO.getUpdated_date());
 
         Board saved = boardRepository.save(board);
+
+        long end = System.currentTimeMillis();
+        log.info("글 작성 완료 , 소요시간"+(end+start)+"ms");
 
         return toDTO(saved);
     }
@@ -73,6 +79,9 @@ public class BoardService {
     /** 게시글 수정 **/
     @Transactional
     public BoardDTO updateBoard(Long boardId, BoardDTO dto, UserDetails userDetails) {
+        long start = System.currentTimeMillis();
+        log.info("글 수정 메서드 시작");
+
         Board board = boardRepository.findById(boardId)
                 .orElseThrow(() -> new IllegalArgumentException("게시글 없음: " + boardId));
         if (board.getUser().getId().equals(userDetails.getUsername())){
@@ -81,6 +90,8 @@ public class BoardService {
         board.setTitle(dto.getTitle());
         board.setContent(dto.getContent());
         boardRepository.save(board);
+        long end = System.currentTimeMillis();
+        log.info("글 수정 완료 , 소요시간"+(end+start)+"ms");
         return toDTO(board);
     }
 
@@ -194,7 +205,7 @@ public class BoardService {
             }
         }
         long end = System.currentTimeMillis();
-        System.out.println("JPA board saveAll 저장 소요 시간 (ms)" + (end - start));
+        log.info("JPA board saveAll 저장 소요 시간 (ms)" + (end - start));
     }
 
 

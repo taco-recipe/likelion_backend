@@ -1,6 +1,7 @@
 package org.example.backendproject.Auth.service;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.example.backendproject.Auth.dto.LoginReponseDTO;
 import org.example.backendproject.Auth.dto.LoginRequestDTO;
 import org.example.backendproject.Auth.dto.SignUpRequestDTO;
@@ -21,6 +22,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+
+@Slf4j
 @Service
 @RequiredArgsConstructor
 public class AuthService {
@@ -41,7 +44,7 @@ public class AuthService {
     @Transactional
     public void signUp(SignUpRequestDTO dto){
 
-        System.out.println(dto);
+        log.info(String.valueOf(dto));
 
         if (userRepository.findByUserid(dto.getUserid()).isPresent()){
             throw new RuntimeException("사용자가 이미 존재합나다.");
@@ -51,7 +54,7 @@ public class AuthService {
         user.setUserid(dto.getUserid());
         //user.setPassword(dto.getPassword());
         user.setPassword(passwordEncoder.encode(dto.getPassword()));// 비밀번호 암호화 저장
-        System.out.println(user.getPassword());
+        log.info(user.getPassword());
         //+
         user.setRole(Role.ROLE_USER);
 

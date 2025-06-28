@@ -1,4 +1,5 @@
 package org.example.backendproject.purewebsocket.handler;
+import lombok.extern.slf4j.Slf4j;
 import org.example.backendproject.purewebsocket.dto.ChatMessage;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.web.socket.CloseStatus;
@@ -12,6 +13,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
+@Slf4j
 public class ChatWebSocketHandler extends TextWebSocketHandler {
 
     //세션을 관리하는 객체
@@ -33,7 +35,7 @@ public class ChatWebSocketHandler extends TextWebSocketHandler {
 
         sessions.add(session);
 
-        System.out.println("접속된 클라이언트 세션 ID = "+session.getId());
+        log.info("접속된 클라이언트 세션 ID = "+session.getId());
     }
 
     //클라이언트가 보낸 메세지를 서버가 받았을 떄 호출
@@ -57,7 +59,7 @@ public class ChatWebSocketHandler extends TextWebSocketHandler {
                 //자바 객체 -> json 문자열
                 s.sendMessage(new TextMessage(objectMapper.writeValueAsString(chatMessage)));
 
-                System.out.println("전송된 메세지 = "+chatMessage.getMessage());
+                log.info("전송된 메세지 = "+chatMessage.getMessage());
             }
         }
 

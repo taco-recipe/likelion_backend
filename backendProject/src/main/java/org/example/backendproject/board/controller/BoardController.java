@@ -3,6 +3,7 @@ package org.example.backendproject.board.controller;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.example.backendproject.board.dto.BoardDTO;
 import org.example.backendproject.board.entity.Board;
 import org.example.backendproject.board.service.BoardService;
@@ -16,6 +17,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@Slf4j
 @RestController
 @RequestMapping("/boards")
 @RequiredArgsConstructor
@@ -30,7 +32,7 @@ public class BoardController {
                                                 @RequestBody BoardDTO boardDTO) throws JsonProcessingException
             {
         boardDTO.setUser_id(userDetails.getId());
-        System.out.println("boardDTO 값: " + new ObjectMapper().writeValueAsString(boardDTO));
+        log.info("boardDTO 값: " + new ObjectMapper().writeValueAsString(boardDTO));
         BoardDTO created = boardService.createBoard(boardDTO);
         return ResponseEntity.status(HttpStatus.CREATED).body(created);
     }

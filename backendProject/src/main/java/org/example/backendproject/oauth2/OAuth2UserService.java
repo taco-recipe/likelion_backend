@@ -1,6 +1,7 @@
 package org.example.backendproject.oauth2;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.example.backendproject.Auth.entity.Auth;
 import org.example.backendproject.Auth.repository.AuthRepository;
 import org.example.backendproject.security.core.CustomUserDetails;
@@ -26,6 +27,7 @@ import java.util.Map;
 import java.util.Optional;
 
 
+@Slf4j
 @Service
 @RequiredArgsConstructor
 public class OAuth2UserService  extends DefaultOAuth2UserService {
@@ -80,9 +82,9 @@ public class OAuth2UserService  extends DefaultOAuth2UserService {
 
         }
 
-        System.out.println(provider+" 로그인 확인 userid = "+userid);
-        System.out.println(provider+" 로그인 확인 email = "+email);
-        System.out.println(provider+" 로그인 확인 username = "+username);
+        log.info(provider+" 로그인 확인 userid = "+userid);
+        log.info(provider+" 로그인 확인 email = "+email);
+        log.info(provider+" 로그인 확인 username = "+username);
 
         // 회원 정보가 DB에 존재하는지 확인
         User user = userRepository.findByUserid(userid)
