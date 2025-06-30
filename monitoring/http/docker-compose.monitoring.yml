@@ -9,10 +9,10 @@ services:
     volumes:
       - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml # [설정파일]
       - ./volumes/prometheus:/prometheus          # [데이터 볼륨]
-    depends_on:
-      - backend1
-      - backend2
-      - backend3
+#    depends_on:
+#      - backend1
+#      - backend2
+#      - backend3
     networks:
       - prod_server
 
