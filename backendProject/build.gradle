@@ -57,6 +57,12 @@ dependencies {
 
     //엘라스틱 서치
     implementation 'org.springframework.boot:spring-boot-starter-data-elasticsearch'
+
+    //kafka
+    implementation 'org.springframework.kafka:spring-kafka'
+
+
+
 }
 
 tasks.named('test') {

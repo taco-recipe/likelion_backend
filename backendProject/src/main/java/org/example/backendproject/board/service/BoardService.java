@@ -93,10 +93,25 @@ public class BoardService {
 
 
     /** 게시글 상세 조회 **/
-    @Transactional(readOnly = true)
+    @Transactional
     public BoardDTO getBoardDetail(Long boardId) {
         Board board = boardRepository.findById(boardId)
                 .orElseThrow(() -> new IllegalArgumentException("게시글 없음: " + boardId));
+
+        //mysql 조회수 증가
+        board.setViewCount(board.getViewCount() + 1);
+        log.info(String.valueOf(board.getViewCount()));
+
+        //ES 조회수 증가
+        BoardEsDocument esDocument = boardEsRepository.findById(String.valueOf(boardId))
+                .orElseThrow(() -> new IllegalArgumentException("ES에 게시글 없음 :"+boardId));
+        log.info(String.valueOf(esDocument.getView_count()));
+        esDocument.setView_count(board.getViewCount());
+        log.info(String.valueOf(esDocument.getView_count()));
+
+        boardEsService.save(esDocument);
+
+
         return toDTO(board);
     }
 
@@ -193,55 +208,47 @@ public class BoardService {
 
         dto.setCreated_date(board.getCreated_date());
         dto.setUpdated_date(board.getUpdated_date());
+        dto.setViewCount(board.getViewCount());
         return dto;
     }
 
 
 
 
-    /** 배치작업 **/
     @Transactional
-    public void batchSaveBoard(List<BoardDTO> boardDTOList,UserDetails userDetails) {
+    public void batchSaveBoard(List<BoardDTO> boardDTOList, UserDetails userDetails) {
         Long start = System.currentTimeMillis();
+        int batchSize = 1000;
 
-        int batchsize = 1000; //한번에 처리할 배치 크기
-        for (int i = 0; i < boardDTOList.size(); i+=batchsize) { //i는 1000씩 증가
-            //전체 데이터를 1000개씩 잘라서 배치리스트에 담습니다.
-
-            int end = Math.min(boardDTOList.size(), i+batchsize); //두개의 숫자중에 작은 숫자를 반황ㄴ
+        for (int i = 0; i < boardDTOList.size(); i += batchSize) {
+            int end = Math.min(boardDTOList.size(), i + batchSize);
             List<BoardDTO> batchList = boardDTOList.subList(i, end);
 
-            //전체 데이터에서 1000씩 작업을 하는데 마지막 데이터가 1000개가 안될수도있으니
-            //Math.min()으로 전체 크기를 넘지 않게 마지막 인덱스를 계산해서 작업합니다.
-
-
-            //내가 넣은 데이터만 엘라스틱서치에 동기화하기 위해 uuid 생성
             String batchKey = UUID.randomUUID().toString();
             for (BoardDTO dto : batchList) {
                 dto.setBatchkey(batchKey);
             }
 
-
-            // 1. MySQL로 INSERT
-            batchRepository.batchInsert(batchList);
-
-            // 2. Mysql에 insert한 데이터를 다시 조회
-            List<BoardDTO> saveBoards = batchRepository.findByBatchKey(batchKey);
-
-            //3. 엘라스틱 서치용으로 변환
-            List<BoardEsDocument> documents = saveBoards.stream()
-                    .map(BoardEsDocument :: from)// DTO -> 엘라스틱용 dto로 변경
-                    .toList();
-
-            try{
-                //4. 엘라스틱 서치 bulk 인덱싱
-                boardEsService.bulkIndexInsert(documents);
-            }catch (IOException e){
-                log.error("[BOARD][BATCH] ElasticSearch 벌크 인덱싱 실패 :{}",e.getMessage(),e);
+            try {
+                batchRepository.batchInsert(batchList); // SQL 오류 등 발생 가능
+            } catch (Exception e) {
+                log.error("[BOARD][BATCH] DB 저장 실패: {}", e.getMessage(), e);
+                throw new RuntimeException("DB 저장 중 오류 발생", e);  // 반드시 던져야 함
             }
 
-        }
+            List<BoardDTO> savedBoards = batchRepository.findByBatchKey(batchKey);
 
+            List<BoardEsDocument> documents = savedBoards.stream()
+                    .map(BoardEsDocument::from)
+                    .toList();
+
+            try {
+                boardEsService.bulkIndexInsert(documents);
+            } catch (IOException e) {
+                log.error("[BOARD][BATCH] Elasticsearch 인덱싱 실패: {}", e.getMessage(), e);
+                throw new RuntimeException("Elasticsearch 인덱싱 중 오류 발생", e);
+            }
+        }
 
 
 

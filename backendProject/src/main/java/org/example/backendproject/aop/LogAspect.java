@@ -35,7 +35,7 @@ public class LogAspect {
 
         }catch (Exception e){
             log.error("[AOP_LOG][TraceId] {} {} 메서드 예외 {}",TraceIdHolder.get(),methodName,e.getMessage());
-            return e;
+            throw e;
         }
         finally{
             long end = System.currentTimeMillis();

@@ -1,6 +1,7 @@
 package org.example.backendproject.board.elasticsearch.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -29,6 +30,7 @@ public class BoardEsDocument {
     private Long userId;
     private String created_date;
     private String updated_date;
+    private Long view_count = 0L;
 
     public static BoardEsDocument from(BoardDTO dto) {
         return BoardEsDocument.builder()
@@ -39,6 +41,7 @@ public class BoardEsDocument {
                 .userId(dto.getUser_id())
                 .created_date(dto.getCreated_date() != null ? dto.getCreated_date().toString() : null)
                 .updated_date(dto.getUpdated_date() != null ? dto.getUpdated_date().toString() : null)
+                .view_count(dto.getViewCount())
                 .build();
     }
 

@@ -2,6 +2,9 @@ package org.example.backendproject.board.elasticsearch.service;
 
 
 import co.elastic.clients.elasticsearch.ElasticsearchClient;
+import co.elastic.clients.elasticsearch._types.SortOrder;
+import co.elastic.clients.elasticsearch._types.aggregations.AggregationBuilders;
+import co.elastic.clients.elasticsearch._types.aggregations.TermsAggregation;
 import co.elastic.clients.elasticsearch._types.query_dsl.*;
 import co.elastic.clients.elasticsearch.core.BulkRequest;
 import co.elastic.clients.elasticsearch.core.BulkResponse;
@@ -102,7 +105,14 @@ public class BoardEsService {
                     .from(from)
                     .size(size)
                     .query(query)
+
+                    //정렬
+                    .sort( sort -> sort
+                            .field(f->f
+                                    .field("created_date")
+                                    .order(SortOrder.Desc)))
             );
+
             //엘라스틱 서치의 검색 결과를 담고 있는 응답 객체
             SearchResponse<BoardEsDocument> response =
                     //엘라스틱 서치에 명령을 전달하는 자바api검색요청을 담아 응답객체로 변환
@@ -167,7 +177,38 @@ public class BoardEsService {
         }
 
 
+    }
 
+    public List<String> getTopSearchKeyword(){
+
+        //TermsAggregation 엘라스틱 서치의 집계 메서드
+        TermsAggregation termsAggregation = TermsAggregation.of( t -> t
+                .field("keyword.keyword") // 집계 기준 필드
+                .size(10));                 // 상위 10개만 불러오기
+
+
+        //집계 요청
+        SearchRequest request = SearchRequest.of( s-> s
+                .index("search-log-index") // 집계를 가져올 인덱스 이름
+                .size(0)                    // 집계만 가져오고 검색 겨로가는 가져오지 않음
+                .aggregations("top_keywords",a -> a.terms(termsAggregation))); // 인기 검색어 집계
+
+        try{
+            //집계 응답
+            SearchResponse<Void> response = client.search(request,Void.class);
+            return response.aggregations()// 응답 결과에서 집계 결과만 꺼냄
+                    .get("top_keywords")    // 위에서 내가 집계 여청한 이름
+                    .sterms()   // String terms로 변환
+                    .buckets()// 집계 결과 버킷 리스트로
+                    .array()//버킷 리스트를 배열로
+                    .stream()// 배열을 스트림으로 변환
+                    .map(buket -> buket.key().stringValue()) // 버킷의 ket값을 문자열로 꺼냄
+                    .map(Object ::toString) // string으로 반환
+                    .collect(Collectors.toList()); // 스트링 결과를 리스트로 모아서 반환
+        }
+        catch (IOException e){
+            throw new RuntimeException("검색어 통계 조회 중 오류 발생",e);
+        }
     }
 
 
